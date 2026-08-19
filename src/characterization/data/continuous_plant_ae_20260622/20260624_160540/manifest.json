@@ -1,0 +1,92 @@
+{
+  "experiment": {
+    "name": "continuous_plant_ae_20260622",
+    "timezone": "Europe/Berlin",
+    "day_start_hour": 6,
+    "night_start_hour": 22
+  },
+  "run_id": "20260624_160540",
+  "started_utc": "2026-06-24T14:05:40.738496+00:00",
+  "configuration": {
+    "experiment": {
+      "name": "continuous_plant_ae_20260622",
+      "timezone": "Europe/Berlin",
+      "day_start_hour": 6,
+      "night_start_hour": 22
+    },
+    "acquisition": {
+      "profile": "deep_memory_500k",
+      "sample_rate_hz": 500000,
+      "memory_depth": 300000,
+      "chunk_points": 250000,
+      "visa_timeout_ms": 30000,
+      "max_frequency_hz": 100000
+    },
+    "monitor": {
+      "memory_fraction": 0.75,
+      "reserve_gib": 4.0,
+      "persist_rolling_events": true,
+      "save_event_raw": false,
+      "status_every_frames": 10,
+      "dashboard_interval_minutes": 30,
+      "reconnect_delay_seconds": 5,
+      "psd_snapshot_interval_minutes": 60,
+      "psd_snapshot_window_frames": 30,
+      "peak_average_frames": 8,
+      "peak_tracker": {
+        "match_tolerance_hz": 500,
+        "max_missed": 5,
+        "min_points_for_drift": 12,
+        "min_displacement_hz": 500,
+        "min_slope_hz_per_second": 0.5,
+        "min_r_squared": 0.8,
+        "event_cooldown_frames": 30
+      },
+      "persistent_peaks": {
+        "tolerance_hz": 500,
+        "persistence_frames": 12,
+        "cooldown_frames": 60,
+        "bin_width_hz": 250
+      },
+      "band_detector": {
+        "history_frames": 60,
+        "min_reference_frames": 20,
+        "threshold_db": 4,
+        "persistence_frames": 5,
+        "cooldown_frames": 30
+      }
+    },
+    "environment": {
+      "poll_interval_seconds": 60,
+      "soil_moisture_median_samples": 10,
+      "soil_moisture_entity": "sensor.pflanze_1_pflanze_1_bodenfeuchte",
+      "pump_entity": "switch.pflanze_1_pflanze_1_pumpe",
+      "watering_script_entity": "script.pflanze1_giessen"
+    },
+    "watering": {
+      "enabled": true,
+      "once_after_baseline_minutes": 60,
+      "only_below_soil_moisture_percent": null
+    }
+  },
+  "watering_enabled_by_command_line": false,
+  "paths": {
+    "frame_characterization": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260624_160540/frame_characterization.jsonl",
+    "environment": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260624_160540/environment.jsonl",
+    "events": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260624_160540/experiment_events.jsonl",
+    "rolling_events": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260624_160540/rolling_events"
+  },
+  "status": "running",
+  "verified_scope_settings": {
+    "profile": "deep_memory_500k",
+    "sample_rate_hz": 500000.0,
+    "memory_depth": 300000,
+    "horizontal_scale_s_per_div": 0.05,
+    "capture_duration_s": 0.6,
+    "frequency_resolution_hz": 1.6666666666666667,
+    "nyquist_hz": 250000.0,
+    "trigger_mode": "EDGE",
+    "trigger_source": "CHAN3",
+    "trigger_level_v": 0.02
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "condition": "mcu_on_idle",
+  "notes": "Automatically selected from the RAM ring immediately before watering",
+  "created_utc": "2026-06-22T20:50:28.475459+00:00",
+  "cycles_accepted": 3,
+  "captures": [
+    {
+      "cycle": 0,
+      "channel": 1,
+      "source_sequence": 5,
+      "file": "cycle_000_ch1.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 2,
+      "source_sequence": 5,
+      "file": "cycle_000_ch2.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 3,
+      "source_sequence": 5,
+      "file": "cycle_000_ch3.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 1,
+      "source_sequence": 6,
+      "file": "cycle_001_ch1.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 2,
+      "source_sequence": 6,
+      "file": "cycle_001_ch2.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 3,
+      "source_sequence": 6,
+      "file": "cycle_001_ch3.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 1,
+      "source_sequence": 7,
+      "file": "cycle_002_ch1.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 2,
+      "source_sequence": 7,
+      "file": "cycle_002_ch2.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 3,
+      "source_sequence": 7,
+      "file": "cycle_002_ch3.npz"
+    }
+  ],
+  "source": "continuous RAM ring"
+}

@@ -1,0 +1,9 @@
+{
+  "run_id": "20260630_025757",
+  "status": "running",
+  "timezone": "Europe/Berlin",
+  "day_start_hour": 6,
+  "night_start_hour": 22,
+  "sample_window_note": "Frames are 0.6 s snapshots separated by instrument/LAN transfer time; this is not gapless acquisition.",
+  "started_utc": "2026-06-30T00:57:57.804674+00:00"
+}

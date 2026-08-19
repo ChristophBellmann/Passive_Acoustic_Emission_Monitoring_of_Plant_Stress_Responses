@@ -1,0 +1,24 @@
+CH1:
+  max_amplitude_mV_mean: 417.456165701627
+  max_amplitude_mV_std: 305.72114645617523
+  n_peaks: 0
+  rms_mV_mean: 104.89177955323521
+  rms_mV_std: 116.83228204487962
+CH2:
+  max_amplitude_mV_mean: 2.5057191955264777
+  max_amplitude_mV_std: 2.135269411896494
+  n_peaks: 0
+  rms_mV_mean: 0.5180553067798099
+  rms_mV_std: 0.49619835645227567
+CH3:
+  max_amplitude_mV_mean: 5.012269244822093
+  max_amplitude_mV_std: 4.857854847733973
+  n_peaks: 0
+  rms_mV_mean: 0.5325447247689399
+  rms_mV_std: 0.3852258794561137
+n_captures_per_channel: 30
+setup:
+  CH1: "Piezo + LM358 + 820k\u03A9, 10:1"
+  CH2: "Piezo + 820k\u03A9, 1:1"
+  CH3: Piezo direkt, 1:1
+timestamp: '20260621_192108'

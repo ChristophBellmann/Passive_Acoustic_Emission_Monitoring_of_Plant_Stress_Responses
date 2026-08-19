@@ -1,0 +1,35 @@
+{
+  "experiment_id": "20260703_201303",
+  "started_utc": "2026-07-03T18:13:03.812409+00:00",
+  "design": {
+    "n_pre_frames": 5,
+    "n_post_frames": 10,
+    "watering_duration_s": 10,
+    "scope": "Rigol DS1104Z, 500kSa/s, 300k Punkte, Δf=1.67Hz",
+    "channels": {
+      "CH1": "Pico GP14 5kHz-Marker/Trigger (Rigol CH1)",
+      "CH3": "Stahl + LM358 + 830kΩ (kalibrierter Probe-Head A)",
+      "CH4": "Stahl + LM358 + 830kΩ (kalibrierter Probe-Head B)"
+    }
+  },
+  "prior_knowledge": {
+    "cron_watering_2026-06-27": {
+      "pre_coh": 0.6311,
+      "post_coh": 0.5272,
+      "delta": -0.1039
+    },
+    "manual_watering_2026-06-26": {
+      "pre_coh": 0.1487
+    },
+    "historical_day_coh_mean": 0.274,
+    "historical_night_coh_mean": 0.798,
+    "coh_natural_std": 0.219
+  },
+  "hypotheses": {
+    "H1": "CH3 oder CH4 zeigt >3 dB in mind. einem 5kHz-Band (0–25 kHz) innerhalb der ersten 5 Post-Frames",
+    "H2": "|post_coh_mean − pre_coh_mean| > 0.15 an 3800Hz (CH3↔CH4); Richtung: Abnahme erwartet",
+    "H3": "CH1-Marker/Kontrollenergie ändert sich <3 dB in allen Bändern",
+    "H4": "CH3/CH4-Energie-Mismatch 0–10 kHz ≤ 3 dB (Balance zweier kalibrierter Stahl+LM358+830kΩ Probe-Heads)",
+    "H5": "Falls H1 bestätigt: Frame 0–1 = Hydraulikschock, Frame 2–5 = Diffusion durch Bodenmatrix"
+  }
+}

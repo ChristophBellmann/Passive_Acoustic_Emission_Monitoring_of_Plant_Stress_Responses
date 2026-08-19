@@ -1,0 +1,19 @@
+[package]
+name = "pico_rust_sweep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+embedded-hal = "1.0"
+panic-halt = "1.0"
+pio = "0.2"
+pio-proc = "0.2"
+rp-pico = "0.9"
+
+[profile.release]
+codegen-units = 1
+debug = 2
+lto = true
+opt-level = "z"

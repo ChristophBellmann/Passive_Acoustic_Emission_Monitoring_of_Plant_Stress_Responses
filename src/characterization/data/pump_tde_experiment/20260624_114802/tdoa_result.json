@@ -1,0 +1,46 @@
+{
+  "run_id": "20260624_114802",
+  "n_pulses": 8,
+  "channel_hw_config": [
+    [
+      1,
+      1,
+      0.02
+    ],
+    [
+      3,
+      10,
+      0.5
+    ],
+    [
+      4,
+      10,
+      0.5
+    ]
+  ],
+  "tde_ms": {
+    "ch1ch3": 0.0,
+    "ch1ch4": 0.0,
+    "ch3ch4": 0.0
+  },
+  "tde_std_ms": {
+    "ch1ch3": 0.00066,
+    "ch1ch4": 0.00066,
+    "ch3ch4": 0.00066
+  },
+  "phase_ch3_ch4": {
+    "3800": {
+      "phase_deg": 8.57,
+      "std_deg": 16.4,
+      "dt_us": 6.26,
+      "significant": false
+    },
+    "6600": {
+      "phase_deg": 56.05,
+      "std_deg": 35.6,
+      "dt_us": 23.59,
+      "significant": false
+    }
+  },
+  "note": "TDE=0 (strukturelle Kopplung). Phase 6.6kHz: +56deg (CH3 eilt CH4 vor) - nicht signifikant bei n=8"
+}

@@ -1,0 +1,4 @@
+Incomplete diagnostic run.
+
+The 10x GP14 trigger configuration worked, but acquisition stopped after a
+transient empty CH3 waveform transfer. Do not use this run as calibration data.

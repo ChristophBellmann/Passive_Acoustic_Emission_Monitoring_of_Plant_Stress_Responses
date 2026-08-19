@@ -1,0 +1,5 @@
+Incomplete diagnostic run.
+
+The first transition was captured, but subsequent GP14 markers did not trigger
+because CH1 was configured for a 1x probe while the connected probe was 10x.
+Do not use this run as calibration data.

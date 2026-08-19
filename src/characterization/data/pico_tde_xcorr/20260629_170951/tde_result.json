@@ -1,0 +1,116 @@
+{
+  "run_id": "20260629_170951",
+  "method": "phase_diff_single_freq + xcorr",
+  "n_frames": 17,
+  "n_clean": 15,
+  "f_resonance_hz": 9000.0,
+  "fs_sa_per_s": 5000000,
+  "tde_ph_us": 1.95,
+  "tde_ph_std_us": 0.03095516470998376,
+  "tde_xc_us": 1.6,
+  "sign_convention": "positive = CH3 arrives after CH4",
+  "records": [
+    {
+      "f": 8900,
+      "tau_ph_us": -1.92,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9100,
+      "tau_ph_us": -1.93,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8800,
+      "tau_ph_us": -1.97,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 28300,
+      "tau_ph_us": -1.64,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9100,
+      "tau_ph_us": -1.95,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8800,
+      "tau_ph_us": -1.92,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 28300,
+      "tau_ph_us": -1.63,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9100,
+      "tau_ph_us": -1.96,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8900,
+      "tau_ph_us": -1.96,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9000,
+      "tau_ph_us": -1.94,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9100,
+      "tau_ph_us": -1.99,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8800,
+      "tau_ph_us": -1.93,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9000,
+      "tau_ph_us": -1.9,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8700,
+      "tau_ph_us": -1.99,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 8900,
+      "tau_ph_us": -1.88,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9000,
+      "tau_ph_us": -1.98,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    },
+    {
+      "f": 9100,
+      "tau_ph_us": -1.95,
+      "tau_xc_us": 1.6,
+      "lag": 8
+    }
+  ]
+}

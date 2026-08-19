@@ -1,0 +1,37 @@
+{
+  "run_id": "20260716_130758",
+  "status": "finished",
+  "timezone": "Europe/Berlin",
+  "day_start_hour": 6,
+  "night_start_hour": 22,
+  "sample_window_note": "Frames are 0.6 s snapshots separated by instrument/LAN transfer time; this is not gapless acquisition.",
+  "started_utc": "2026-07-16T11:07:58.317605+00:00",
+  "phase": 3,
+  "workflow_definition": "notebooks/04_continuous_frequency_sweep.ipynb",
+  "operator_entrypoint": "measurement.py start --no-push; equivalent NB00 control-panel backend",
+  "sensor_configuration": {
+    "CH1": "Piezo sensor through existing LM amplifier",
+    "CH3": "MEMS microphone A through existing LM amplifier",
+    "CH4": "MEMS microphone B through existing LM amplifier"
+  },
+  "home_assistant_available": false,
+  "automatic_watering": false,
+  "temperature_recording": false,
+  "power_supply": "original Raspberry Pi power supply restored after A/B test",
+  "measurement_context": "Continuation of the post-watering Phase-3 longrun; manual watering occurred immediately before the original run",
+  "watering_event": "data/phase3_events/20260714_222002_manual_watering.json",
+  "continuation_of_run_id": "20260714_222600",
+  "continuation_reason": "Previous worker became stale after a Rigol TCP connection reset; reconnect appended one final parsable frame at 2026-07-15T20:06:33.048409+00:00 but then produced no further frames or heartbeat updates.",
+  "auto_push": false,
+  "finished_utc": "2026-07-16T14:40:44.305492+00:00",
+  "frames_processed": 284,
+  "monitor_status": {
+    "frames_in_ram": 284,
+    "evicted_frames": 0,
+    "ring_usage_gib": 0.6349523961544037,
+    "ring_budget_gib": 2.8461647033691406,
+    "system_available_gib": 4.806041717529297,
+    "active_peak_tracks": 96,
+    "events": 107
+  }
+}

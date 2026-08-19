@@ -1,0 +1,6 @@
+Incomplete processing run.
+
+All 80 scalar measurement records were acquired, but the final aggregation
+failed before the in-memory complex spectra were written. The records may be
+used for amplitude/SNR diagnostics only; do not use this run for coherence or
+phase calibration.

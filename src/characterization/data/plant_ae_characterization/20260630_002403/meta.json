@@ -1,0 +1,21 @@
+{
+  "run_id": "20260630_002403",
+  "notebook": "notebooks/14_plant_ae_characterization.ipynb",
+  "date_utc": "2026-06-30T00:57:46.149875+00:00",
+  "n_pre": 10,
+  "n_post": 20,
+  "channels": [
+    1,
+    3,
+    4
+  ],
+  "channel_roles": {
+    "CH1": "Soil piezo (plant AE primary), LM358+830k\u03a9, 10x probe",
+    "CH2": "DEFECTIVE",
+    "CH3": "Rod piezo A (reference), LM358+820k\u03a9, 10x probe",
+    "CH4": "Rod piezo B (reference), LM358+820k\u03a9, 10x probe"
+  },
+  "sample_rate_hz": 500000.0,
+  "memory_depth": 300000,
+  "frame_duration_s": 0.6
+}

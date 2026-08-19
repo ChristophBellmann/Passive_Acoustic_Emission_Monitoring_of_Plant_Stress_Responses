@@ -1,0 +1,87 @@
+{
+  "experiment_id": "20260629_201303",
+  "pre_coh": {
+    "mean": 0.9676,
+    "std": 0.0122,
+    "n": 5,
+    "values": [
+      0.9661,
+      0.9846,
+      0.9743,
+      0.958,
+      0.9548
+    ]
+  },
+  "post_coh": {
+    "mean": 0.904,
+    "std": 0.1307,
+    "n": 10,
+    "values": [
+      0.9576,
+      0.9617,
+      0.9652,
+      0.6214,
+      0.9757,
+      0.9731,
+      0.9506,
+      0.6959,
+      0.9709,
+      0.9675
+    ]
+  },
+  "pre_trk": {
+    "mean": 3729.5,
+    "std": 135.3,
+    "values": [
+      3873.2,
+      3691.2,
+      3822.1,
+      3523.5,
+      3737.7
+    ]
+  },
+  "post_trk": {
+    "mean": 3739.9,
+    "std": 111.7,
+    "values": [
+      3868.8,
+      3567.8,
+      3791.2,
+      3807.8,
+      3778.8,
+      3765.4,
+      3615.4,
+      3793.5,
+      3571.2,
+      3839.1
+    ]
+  },
+  "H1": {
+    "confirmed": false,
+    "threshold_db": 3.0,
+    "hits": []
+  },
+  "H2": {
+    "confirmed": false,
+    "pre_mean": 0.9676,
+    "post_mean": 0.904,
+    "delta": -0.0636,
+    "threshold": 0.15
+  },
+  "H3": {
+    "confirmed": true,
+    "max_delta_db": 1.07,
+    "violations": []
+  },
+  "H4": {
+    "confirmed": true,
+    "delta_ch3_db": -0.29,
+    "delta_ch4_db": -0.08,
+    "mismatch_db": 0.2
+  },
+  "H5": {
+    "first_hit_frame": null,
+    "immediate": null
+  },
+  "n_confirmed": 2
+}

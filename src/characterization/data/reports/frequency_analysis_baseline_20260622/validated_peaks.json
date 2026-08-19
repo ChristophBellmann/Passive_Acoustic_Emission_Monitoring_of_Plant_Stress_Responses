@@ -1,0 +1,139 @@
+[
+  {
+    "frequency_hz": 868.7493393967649,
+    "frequency_khz": 0.869,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 26.7,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 69.77,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 4150.391988828581,
+    "frequency_khz": 4.15,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 24.09,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 66.47,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 2190.44919249452,
+    "frequency_khz": 2.19,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 23.89,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 63.66,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 26587.616117140355,
+    "frequency_khz": 26.588,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 16.84,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 81.71,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 54110.58614073517,
+    "frequency_khz": 54.111,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 11.1,
+    "repeatability_fraction": 0.5,
+    "mean_prominence_db": 75.41,
+    "channels": [
+      1,
+      2
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 9553.425397953853,
+    "frequency_khz": 9.553,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 10.89,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 51.83,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 53041.457566694415,
+    "frequency_khz": 53.041,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 9.21,
+    "repeatability_fraction": 0.6,
+    "mean_prominence_db": 70.55,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 14180.433016474322,
+    "frequency_khz": 14.18,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 8.32,
+    "repeatability_fraction": 0.95,
+    "mean_prominence_db": 48.49,
+    "channels": [
+      1,
+      2,
+      3
+    ],
+    "is_sensor_resonance": true
+  },
+  {
+    "frequency_hz": 81144.2760762042,
+    "frequency_khz": 81.144,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 6.85,
+    "repeatability_fraction": 0.55,
+    "mean_prominence_db": 77.48,
+    "channels": [
+      1,
+      2
+    ],
+    "is_sensor_resonance": false
+  },
+  {
+    "frequency_hz": 8248.430309540903,
+    "frequency_khz": 8.248,
+    "frequency_uncertainty_hz": 1.667,
+    "snr_db": 6.22,
+    "repeatability_fraction": 1.0,
+    "mean_prominence_db": 50.37,
+    "channels": [
+      2,
+      3
+    ],
+    "is_sensor_resonance": true
+  }
+]

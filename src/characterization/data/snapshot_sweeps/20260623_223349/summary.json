@@ -1,0 +1,29 @@
+{
+  "run_id": "20260623_223349",
+  "n_frames": 5,
+  "channels": [
+    1,
+    3,
+    4
+  ],
+  "channel_labels": {
+    "1": "CH1 820 kΩ passiv (Topfrand ~3cm, Referenz)",
+    "3": "CH3 Verstärker+820kΩ (Erde, Pflanzennähe)",
+    "4": "CH4 Verstärker+820kΩ (Edelstahlstab, Pflanzennähe)"
+  },
+  "rms_mv": {
+    "1": 0.9004366228350583,
+    "3": 121.65335161962781,
+    "4": 16.949771503934326
+  },
+  "timestamps": [
+    "22:34:51",
+    "22:35:49",
+    "22:36:45",
+    "22:37:41",
+    "22:38:36"
+  ],
+  "ch3_ch1_db": 42.613418560948816,
+  "ch4_ch1_db": 25.494213950115466,
+  "ch3_ch4_db": 17.11920461083335
+}

@@ -1,0 +1,4 @@
+Invalid hardware-state test.
+
+CH3 and CH4 MEMS microphones were not powered during this run. Do not use the
+recorded levels, spectra, or coherence as a Phase-3 soil baseline.

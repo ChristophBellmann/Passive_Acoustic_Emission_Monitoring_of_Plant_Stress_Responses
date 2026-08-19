@@ -1,0 +1,127 @@
+# Oscilloscope configuration for long-window plant AE characterization
+#
+# Problem with the 2026-06-21 baseline:
+#   25 MSa/s × 100 000 pts = 4 ms window → 250 Hz frequency resolution.
+#   All plant AE peaks are uncertain to ±250 Hz; slow biological processes
+#   (stomata, xylem transport) are not time-averaged out over such a short window.
+#
+# Solution:
+#   250 kSa/s × 250 000 pts = 1 s window → 1 Hz frequency resolution.
+#   Nyquist = 125 kHz — covers the full 0–100 kHz plant AE band.
+#   File size per capture: ≈ 2 MB (float32), same as before at 25 MSa/s.
+#
+# Anti-aliasing:
+#   The Rigol DS1104Z applies a built-in anti-alias filter when the sample rate
+#   is set below the hardware maximum.  Do NOT stride-decimate offline; always
+#   use scipy.signal.decimate or resample_poly if further downsampling is needed.
+#
+# Rigol DS1104Z notes:
+#   – Memory depth 250 000 is NOT available; use the next supported value above
+#     it, which is typically 500 000 or 1 000 000.  The scope will deliver
+#     250 000 pts per download in RAW + BYTE mode if memory is set accordingly.
+#   – Real sample rate is constrained to: 1 GSa/s / memory_depth × displayed_divs.
+#     For 500 000 pts and 1 s total: set time scale to 100 ms/div (10 div = 1 s),
+#     then memory depth "500000". The scope will auto-select 500 kSa/s.
+#     Confirm with :ACQ:SRAT? before storing.
+#   – Alternatively: 250 ms/div (2.5 s window), 250 000 pts → 100 kSa/s,
+#     Nyquist 50 kHz — adequate for plant AE up to 50 kHz only.
+
+instrument:
+  visa_resource: "TCPIP::192.168.178.70::INSTR"
+  idn_expected_contains: ["RIGOL", "DS1104Z"]
+  timeout_ms: 30000  # longer for RAW transfer of 500 k pts
+
+oscilloscope:
+  channels: [1, 2, 3]
+  channel_settings:
+    1:
+      enabled: true
+      label: "piezo_amplified_lm358_820k"
+      probe_ratio: 10
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.2   # 200 mV/div — prevents clipping of amplified signal
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "Piezo + LM358 amplifier + 820 kΩ, 10:1 probe"
+    2:
+      enabled: true
+      label: "piezo_820k"
+      probe_ratio: 1
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.01  # 10 mV/div
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "Piezo + 820 kΩ, 1:1 probe"
+    3:
+      enabled: true
+      label: "piezo_direct"
+      probe_ratio: 1
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.01  # 10 mV/div
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "Piezo direct, 1:1 probe"
+
+acquisition:
+  # Target: 1 s window at ≤ 500 kSa/s
+  # Rigol setting: TIM:SCAL 0.1 (100 ms/div × 10 div = 1 s)
+  #                ACQ:MDEP 500000 → actual rate ≈ 500 kSa/s
+  time_scale_s_per_div: 0.1          # 100 ms/div
+  memory_depth: "500000"
+  target_sample_rate_hz: 500000      # 500 kSa/s → Nyquist 250 kHz (above 100 kHz goal)
+  waveform_mode: "RAW"
+  waveform_format: "BYTE"
+  captures: 20
+  delay_between_captures_s: 1.0
+  auto_setup_allowed: false
+  stop_before_read: true             # Stop scope before RAW transfer
+  restore_run_after_read: true
+
+  # Storage format for raw captures
+  # float32 halves file size vs. float64 with no loss for 8-bit ADC data.
+  save_dtype: "float32"
+
+processing:
+  remove_dc: true
+  detrend: true
+  window: "hann"
+  min_frequency_hz: 20
+  max_frequency_hz: 100000
+  welch:
+    # With 500 000 pts and 500 kSa/s: nperseg=65536 → Δf ≈ 7.6 Hz
+    # Full-window periodogram: nperseg=500000 → Δf = 1 Hz (but high variance)
+    # Compromise: nperseg=32768, 50% overlap → Δf ≈ 15 Hz, 30 segments averaged
+    enabled: true
+    nperseg: 32768
+    overlap: 0.5
+  stft:
+    enabled: false
+    nperseg: 4096
+    overlap: 0.75
+
+peak_detection:
+  # 8 dB prominence: rejects peaks caused by a single spectral noise spike.
+  # min_distance_hz: 500 Hz — meaningful at 15 Hz resolution.
+  prominence_db: 8.0
+  min_distance_hz: 500
+  max_peaks: 30
+  ignore_frequency_bands_hz:
+    - [48, 52]      # 50 Hz mains
+    - [98, 102]     # 100 Hz harmonic
+    - [148, 152]    # 150 Hz harmonic
+    - [198, 202]    # 200 Hz harmonic
+
+plausibility:
+  clipping_threshold_fraction: 0.98
+  min_snr_db: 6
+  repeatability_min_fraction: 0.40
+  mains_frequencies_hz: [50, 100, 150, 200]
+  switching_noise_check: true
+  aliasing_check: true
+
+output:
+  save_raw_npz: true       # compressed float32 NPZ, ≈ 1 MB/capture/channel
+  save_psd_npz: true       # compact Welch PSD only, ≈ 50 KB/capture
+  save_plots: true
+  save_report_markdown: true
+  plot_format: "png"

@@ -1,0 +1,20 @@
+{
+  "run_id": "20260702_165437",
+  "status": "finished",
+  "timezone": "Europe/Berlin",
+  "day_start_hour": 6,
+  "night_start_hour": 22,
+  "sample_window_note": "Frames are 0.6 s snapshots separated by instrument/LAN transfer time; this is not gapless acquisition.",
+  "started_utc": "2026-07-02T14:54:37.896007+00:00",
+  "finished_utc": "2026-07-03T18:13:03.984252+00:00",
+  "frames_processed": 1291,
+  "monitor_status": {
+    "frames_in_ram": 1291,
+    "evicted_frames": 0,
+    "ring_usage_gib": 2.886350505053997,
+    "ring_budget_gib": 16.95716094970703,
+    "system_available_gib": 18.757823944091797,
+    "active_peak_tracks": 91,
+    "events": 721
+  }
+}

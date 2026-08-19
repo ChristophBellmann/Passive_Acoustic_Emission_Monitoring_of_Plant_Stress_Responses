@@ -1,0 +1,14 @@
+decay_time:
+  max_ms: 5.999932
+  mean_ms: 3.8997125
+  min_ms: 4.999999999999999e-06
+  std_ms: 2.6998106257109686
+n_captures: 10
+signal_height:
+  max_amplitude_mV_mean: 5.908021376666665
+  max_amplitude_mV_std: 5.518759960688561
+  peak_to_peak_mV_mean: 10.970686
+  peak_to_peak_mV_std: 10.150024700735658
+  rms_mV_mean: 1.5829458449849656
+  rms_mV_std: 1.6301624919655573
+timestamp: '20260621_182749'

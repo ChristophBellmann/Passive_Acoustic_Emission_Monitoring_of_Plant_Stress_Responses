@@ -1,0 +1,368 @@
+{
+  "1": [
+    {
+      "frequency_hz": 49.98887688351026,
+      "bin_frequency_hz": 50.0,
+      "psd_db": -22.232947286521924,
+      "prominence_db": 55.37084955902458
+    },
+    {
+      "frequency_hz": 549.8498809072436,
+      "bin_frequency_hz": 550.0,
+      "psd_db": -46.08397857005254,
+      "prominence_db": 38.74706344929079
+    },
+    {
+      "frequency_hz": 1249.6958316619525,
+      "bin_frequency_hz": 1250.0,
+      "psd_db": -55.58697631486731,
+      "prominence_db": 34.068260494445674
+    },
+    {
+      "frequency_hz": 1949.518816489138,
+      "bin_frequency_hz": 1950.0,
+      "psd_db": -60.00749290361493,
+      "prominence_db": 31.839933900272868
+    },
+    {
+      "frequency_hz": 2549.368024539789,
+      "bin_frequency_hz": 2550.0,
+      "psd_db": -64.33347077747511,
+      "prominence_db": 27.339107623501135
+    },
+    {
+      "frequency_hz": 3049.220684765644,
+      "bin_frequency_hz": 3050.0,
+      "psd_db": -67.57268690417607,
+      "prominence_db": 25.775588000399623
+    },
+    {
+      "frequency_hz": 4612.580307425898,
+      "bin_frequency_hz": 4613.333333333334,
+      "psd_db": -52.76916888117513,
+      "prominence_db": 44.65801353924887
+    },
+    {
+      "frequency_hz": 9417.48825940086,
+      "bin_frequency_hz": 9416.666666666668,
+      "psd_db": -66.98973730568007,
+      "prominence_db": 26.99086293641939
+    },
+    {
+      "frequency_hz": 22539.197897033067,
+      "bin_frequency_hz": 22540.0,
+      "psd_db": -75.80974084492375,
+      "prominence_db": 22.095416459988257
+    },
+    {
+      "frequency_hz": 26258.557707847653,
+      "bin_frequency_hz": 26258.333333333336,
+      "psd_db": -69.96429511813236,
+      "prominence_db": 21.689891956209223
+    },
+    {
+      "frequency_hz": 26958.631385652887,
+      "bin_frequency_hz": 26958.333333333336,
+      "psd_db": -45.47710856345056,
+      "prominence_db": 52.711122107487455
+    },
+    {
+      "frequency_hz": 27658.54302451808,
+      "bin_frequency_hz": 27658.333333333336,
+      "psd_db": -69.38137018360482,
+      "prominence_db": 24.90608912322594
+    },
+    {
+      "frequency_hz": 30758.004871898385,
+      "bin_frequency_hz": 30758.333333333336,
+      "psd_db": -76.81096941064183,
+      "prominence_db": 23.94546653800292
+    },
+    {
+      "frequency_hz": 36376.25760601815,
+      "bin_frequency_hz": 36376.66666666667,
+      "psd_db": -77.46102225624126,
+      "prominence_db": 21.838727692840877
+    },
+    {
+      "frequency_hz": 39907.32262093877,
+      "bin_frequency_hz": 39906.66666666667,
+      "psd_db": -69.19293808421006,
+      "prominence_db": 30.979096670581086
+    },
+    {
+      "frequency_hz": 44962.68086475955,
+      "bin_frequency_hz": 44963.333333333336,
+      "psd_db": -74.079638297099,
+      "prominence_db": 25.706666178595952
+    },
+    {
+      "frequency_hz": 53917.363999278816,
+      "bin_frequency_hz": 53916.66666666667,
+      "psd_db": -67.18383545608954,
+      "prominence_db": 32.80074326648855
+    },
+    {
+      "frequency_hz": 60249.01497418301,
+      "bin_frequency_hz": 60248.333333333336,
+      "psd_db": -73.91656329763802,
+      "prominence_db": 23.439426700204564
+    },
+    {
+      "frequency_hz": 80875.69116610466,
+      "bin_frequency_hz": 80875.0,
+      "psd_db": -67.51671172847115,
+      "prominence_db": 32.43606438831027
+    },
+    {
+      "frequency_hz": 85089.43217042337,
+      "bin_frequency_hz": 85090.0,
+      "psd_db": -72.93598025861682,
+      "prominence_db": 26.027896288557827
+    }
+  ],
+  "2": [
+    {
+      "frequency_hz": 49.98802099667193,
+      "bin_frequency_hz": 50.0,
+      "psd_db": -34.12154753544807,
+      "prominence_db": 74.71538276174898
+    },
+    {
+      "frequency_hz": 549.876850182315,
+      "bin_frequency_hz": 550.0,
+      "psd_db": -61.998730147101625,
+      "prominence_db": 47.39439288474986
+    },
+    {
+      "frequency_hz": 1049.7476745204433,
+      "bin_frequency_hz": 1050.0,
+      "psd_db": -70.04371401863453,
+      "prominence_db": 46.263083309605406
+    },
+    {
+      "frequency_hz": 1949.5354196963965,
+      "bin_frequency_hz": 1950.0,
+      "psd_db": -75.7679034715244,
+      "prominence_db": 48.21565145488191
+    },
+    {
+      "frequency_hz": 2549.3999098299473,
+      "bin_frequency_hz": 2550.0,
+      "psd_db": -79.95186620053565,
+      "prominence_db": 43.9226451965
+    },
+    {
+      "frequency_hz": 3049.3042010720064,
+      "bin_frequency_hz": 3050.0,
+      "psd_db": -83.21633427463914,
+      "prominence_db": 40.74478826424563
+    },
+    {
+      "frequency_hz": 4049.103619287836,
+      "bin_frequency_hz": 4048.3333333333335,
+      "psd_db": -85.62057628447221,
+      "prominence_db": 40.10355225645213
+    },
+    {
+      "frequency_hz": 4648.987602605298,
+      "bin_frequency_hz": 4648.333333333334,
+      "psd_db": -85.55392117519412,
+      "prominence_db": 40.59201666574394
+    },
+    {
+      "frequency_hz": 5148.872533465615,
+      "bin_frequency_hz": 5148.333333333334,
+      "psd_db": -87.46792996805056,
+      "prominence_db": 36.73206659146305
+    },
+    {
+      "frequency_hz": 5648.662230370012,
+      "bin_frequency_hz": 5648.333333333334,
+      "psd_db": -89.8935610002053,
+      "prominence_db": 31.938611667641425
+    },
+    {
+      "frequency_hz": 6148.660305027343,
+      "bin_frequency_hz": 6148.333333333334,
+      "psd_db": -87.97731403446548,
+      "prominence_db": 39.9139036071402
+    },
+    {
+      "frequency_hz": 6948.5037441010745,
+      "bin_frequency_hz": 6948.333333333334,
+      "psd_db": -89.88258223693684,
+      "prominence_db": 34.397118259953814
+    },
+    {
+      "frequency_hz": 10547.720309746577,
+      "bin_frequency_hz": 10548.333333333334,
+      "psd_db": -95.89061521645499,
+      "prominence_db": 30.35593528634618
+    },
+    {
+      "frequency_hz": 14746.96291472746,
+      "bin_frequency_hz": 14746.666666666668,
+      "psd_db": -99.27902947678974,
+      "prominence_db": 33.50270663218281
+    },
+    {
+      "frequency_hz": 26326.438163992127,
+      "bin_frequency_hz": 26326.666666666668,
+      "psd_db": -94.34764221947567,
+      "prominence_db": 32.06329809392794
+    },
+    {
+      "frequency_hz": 26958.642940167065,
+      "bin_frequency_hz": 26958.333333333336,
+      "psd_db": -66.97551895054207,
+      "prominence_db": 69.07165573124902
+    },
+    {
+      "frequency_hz": 27558.58077870536,
+      "bin_frequency_hz": 27558.333333333336,
+      "psd_db": -93.03591494158395,
+      "prominence_db": 29.58458400088047
+    },
+    {
+      "frequency_hz": 39907.27996293271,
+      "bin_frequency_hz": 39906.66666666667,
+      "psd_db": -99.61001370600151,
+      "prominence_db": 32.10447321143032
+    },
+    {
+      "frequency_hz": 53917.264858213086,
+      "bin_frequency_hz": 53916.66666666667,
+      "psd_db": -87.2260223927118,
+      "prominence_db": 46.533019596890654
+    },
+    {
+      "frequency_hz": 80875.75092770539,
+      "bin_frequency_hz": 80875.0,
+      "psd_db": -84.95514699820816,
+      "prominence_db": 48.7789436346938
+    }
+  ],
+  "3": [
+    {
+      "frequency_hz": 49.98822188626043,
+      "bin_frequency_hz": 50.0,
+      "psd_db": -31.412005758757612,
+      "prominence_db": 84.63540212166573
+    },
+    {
+      "frequency_hz": 549.8709810955858,
+      "bin_frequency_hz": 550.0,
+      "psd_db": -56.57949802159987,
+      "prominence_db": 58.874663971504866
+    },
+    {
+      "frequency_hz": 1049.7436633701116,
+      "bin_frequency_hz": 1050.0,
+      "psd_db": -66.99521173509302,
+      "prominence_db": 50.136405496716435
+    },
+    {
+      "frequency_hz": 1549.631918776811,
+      "bin_frequency_hz": 1550.0,
+      "psd_db": -74.38541667483523,
+      "prominence_db": 47.33602638719985
+    },
+    {
+      "frequency_hz": 2049.5045536582234,
+      "bin_frequency_hz": 2050.0,
+      "psd_db": -79.16745915223248,
+      "prominence_db": 47.007750086280836
+    },
+    {
+      "frequency_hz": 2649.3624992679606,
+      "bin_frequency_hz": 2650.0,
+      "psd_db": -83.59469941076631,
+      "prominence_db": 44.83495050860748
+    },
+    {
+      "frequency_hz": 3149.295777052135,
+      "bin_frequency_hz": 3150.0,
+      "psd_db": -86.93691864853817,
+      "prominence_db": 39.63273471036358
+    },
+    {
+      "frequency_hz": 3649.178504296822,
+      "bin_frequency_hz": 3650.0,
+      "psd_db": -91.2698119398425,
+      "prominence_db": 36.07206353095614
+    },
+    {
+      "frequency_hz": 4649.026420009431,
+      "bin_frequency_hz": 4648.333333333334,
+      "psd_db": -92.43925025544415,
+      "prominence_db": 37.532130397568224
+    },
+    {
+      "frequency_hz": 5248.9198670536025,
+      "bin_frequency_hz": 5248.333333333334,
+      "psd_db": -94.98981290673166,
+      "prominence_db": 37.98264995134775
+    },
+    {
+      "frequency_hz": 5748.656758834336,
+      "bin_frequency_hz": 5748.333333333334,
+      "psd_db": -99.81507212161276,
+      "prominence_db": 27.748895584770253
+    },
+    {
+      "frequency_hz": 6248.709059472555,
+      "bin_frequency_hz": 6248.333333333334,
+      "psd_db": -100.37772711553234,
+      "prominence_db": 29.832949427294807
+    },
+    {
+      "frequency_hz": 6948.475250979157,
+      "bin_frequency_hz": 6948.333333333334,
+      "psd_db": -99.0385845327819,
+      "prominence_db": 32.24838411076425
+    },
+    {
+      "frequency_hz": 7448.338980943833,
+      "bin_frequency_hz": 7448.333333333334,
+      "psd_db": -101.53487316038841,
+      "prominence_db": 30.721053114478096
+    },
+    {
+      "frequency_hz": 7948.2858495237715,
+      "bin_frequency_hz": 7948.333333333334,
+      "psd_db": -105.27667527835077,
+      "prominence_db": 24.40868383963725
+    },
+    {
+      "frequency_hz": 8648.050565989757,
+      "bin_frequency_hz": 8648.333333333334,
+      "psd_db": -103.36034413909445,
+      "prominence_db": 31.753033883765397
+    },
+    {
+      "frequency_hz": 26958.644158821735,
+      "bin_frequency_hz": 26958.333333333336,
+      "psd_db": -98.88812630743304,
+      "prominence_db": 42.4643820105412
+    },
+    {
+      "frequency_hz": 39907.36893577237,
+      "bin_frequency_hz": 39906.66666666667,
+      "psd_db": -109.19776410258507,
+      "prominence_db": 29.130857942892106
+    },
+    {
+      "frequency_hz": 67151.74194284846,
+      "bin_frequency_hz": 67151.66666666667,
+      "psd_db": -111.93031864617451,
+      "prominence_db": 26.47172176283651
+    },
+    {
+      "frequency_hz": 76646.4886898482,
+      "bin_frequency_hz": 76646.66666666667,
+      "psd_db": -115.48051675719519,
+      "prominence_db": 25.56325300872082
+    }
+  ]
+}

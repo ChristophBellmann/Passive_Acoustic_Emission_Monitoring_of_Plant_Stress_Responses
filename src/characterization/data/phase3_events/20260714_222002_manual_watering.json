@@ -1,0 +1,20 @@
+{
+  "event_type": "manual_watering",
+  "reported_at_local": "2026-07-14T22:20:02+02:00",
+  "event_time_precision": "approximate; reported immediately after watering",
+  "location": "soil next to the new plant at Julian's setup",
+  "water_amount": null,
+  "water_amount_note": "not reported",
+  "automatic_watering": false,
+  "home_assistant_available": false,
+  "temperature_recording": false,
+  "host": "Raspberry Pi",
+  "power_supply": "original Raspberry Pi power supply restored after A/B test",
+  "sensor_configuration": {
+    "CH1": "Piezo sensor through existing LM amplifier",
+    "CH3": "MEMS microphone A through existing LM amplifier",
+    "CH4": "MEMS microphone B through existing LM amplifier"
+  },
+  "measurement_context": "Water was added to the plant/soil immediately before starting the Phase-3 continuous long run.",
+  "longrun_session_id": "20260714_222600"
+}

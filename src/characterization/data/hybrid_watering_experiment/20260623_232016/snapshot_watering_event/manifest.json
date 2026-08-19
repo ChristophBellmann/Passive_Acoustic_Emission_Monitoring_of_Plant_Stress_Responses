@@ -1,0 +1,27 @@
+{
+  "condition": "watering",
+  "notes": "Frames acquired while the Home Assistant watering script was active",
+  "created_utc": "2026-06-23T21:33:22.700085+00:00",
+  "cycles_accepted": 1,
+  "captures": [
+    {
+      "cycle": 0,
+      "channel": 1,
+      "source_sequence": 8,
+      "file": "cycle_000_ch1.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 3,
+      "source_sequence": 8,
+      "file": "cycle_000_ch3.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 4,
+      "source_sequence": 8,
+      "file": "cycle_000_ch4.npz"
+    }
+  ],
+  "source": "continuous RAM ring"
+}

@@ -1,0 +1,17 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.ppt filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/*.html filter=lfs diff=lfs merge=lfs -text
+src/characterization/notebooks/**/*.ipynb filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/*.npz filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/raw/*.npz filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/decimated*/*.npz filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/**/psd_snapshots/*.npz filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/continuous_plant_ae_*/**/*.npz filter=lfs diff=lfs merge=lfs -text
+src/characterization/data/long_captures/**/*.npz filter=lfs diff=lfs merge=lfs -text
+bilder/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+bilder/**/*.png filter=lfs diff=lfs merge=lfs -text

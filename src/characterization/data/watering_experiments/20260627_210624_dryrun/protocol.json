@@ -1,0 +1,35 @@
+{
+  "experiment_id": "20260627_210624_dryrun",
+  "started_utc": "2026-06-27T19:06:24.204119+00:00",
+  "design": {
+    "n_pre_frames": 5,
+    "n_post_frames": 10,
+    "watering_duration_s": 10,
+    "scope": "Rigol DS1104Z, 500kSa/s, 300k Punkte, Δf=1.67Hz",
+    "channels": {
+      "CH1": "820kΩ passiv (EM-Referenz)",
+      "CH3": "LM358+820kΩ (Erde, Pflanzenwurzelzone)",
+      "CH4": "LM358+820kΩ (Edelstahlstab neben Pflanze)"
+    }
+  },
+  "prior_knowledge": {
+    "cron_watering_2026-06-27": {
+      "pre_coh": 0.6311,
+      "post_coh": 0.5272,
+      "delta": -0.1039
+    },
+    "manual_watering_2026-06-26": {
+      "pre_coh": 0.1487
+    },
+    "historical_day_coh_mean": 0.274,
+    "historical_night_coh_mean": 0.798,
+    "coh_natural_std": 0.219
+  },
+  "hypotheses": {
+    "H1": "CH3 oder CH4 zeigt >3 dB in mind. einem 5kHz-Band (0–25 kHz) innerhalb der ersten 5 Post-Frames",
+    "H2": "|post_coh_mean − pre_coh_mean| > 0.15 an 3800Hz (CH3↔CH4); Richtung: Abnahme erwartet",
+    "H3": "CH1-Bandenergie ändert sich <3 dB in allen Bändern (kein EM-Artefakt)",
+    "H4": "CH3-Energiezuwachs 0–10 kHz > CH4-Zuwachs (Bodensensor reagiert stärker als Metallstab)",
+    "H5": "Falls H1 bestätigt: Frame 0–1 = Hydraulikschock, Frame 2–5 = Diffusion durch Bodenmatrix"
+  }
+}

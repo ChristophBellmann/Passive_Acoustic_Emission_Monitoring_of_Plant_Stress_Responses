@@ -1,0 +1,80 @@
+{
+  "experiment": {
+    "name": "continuous_plant_ae_20260622",
+    "timezone": "Europe/Berlin",
+    "day_start_hour": 6,
+    "night_start_hour": 22
+  },
+  "run_id": "20260622_175202",
+  "started_utc": "2026-06-22T15:52:02.878768+00:00",
+  "configuration": {
+    "experiment": {
+      "name": "continuous_plant_ae_20260622",
+      "timezone": "Europe/Berlin",
+      "day_start_hour": 6,
+      "night_start_hour": 22
+    },
+    "monitor": {
+      "memory_fraction": 0.75,
+      "reserve_gib": 4.0,
+      "persist_rolling_events": true,
+      "save_event_raw": false,
+      "status_every_frames": 10,
+      "dashboard_interval_minutes": 30,
+      "reconnect_delay_seconds": 5,
+      "psd_snapshot_interval_minutes": 60,
+      "psd_snapshot_window_frames": 30
+    },
+    "environment": {
+      "poll_interval_seconds": 60,
+      "soil_moisture_entity": "sensor.pflanze_1_pflanze_1_bodenfeuchte",
+      "pump_entity": "switch.pflanze_1_pflanze_1_pumpe",
+      "watering_script_entity": "script.pflanze1_giessen"
+    },
+    "watering": {
+      "enabled": true,
+      "once_after_baseline_minutes": 60,
+      "only_below_soil_moisture_percent": null
+    }
+  },
+  "watering_enabled_by_command_line": false,
+  "paths": {
+    "frame_characterization": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260622_175202/frame_characterization.jsonl",
+    "environment": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260622_175202/environment.jsonl",
+    "events": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260622_175202/experiment_events.jsonl",
+    "rolling_events": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/continuous_plant_ae_20260622/20260622_175202/rolling_events"
+  },
+  "status": "finished",
+  "verified_scope_settings": {
+    "sample_rate_hz": 25000000.0,
+    "memory_depth": "AUTO",
+    "horizontal_scale_s_per_div": 0.01,
+    "trigger_mode": "EDGE",
+    "trigger_source": "CHAN1",
+    "trigger_level_v": 0.02
+  },
+  "finished_utc": "2026-06-22T17:05:46.887684+00:00",
+  "frames": 310,
+  "watering_triggered": false,
+  "rolling_status": {
+    "frames_in_ram": 310,
+    "evicted_frames": 0,
+    "ring_usage_gib": 0.5774939060211182,
+    "ring_budget_gib": 15.663829803466797,
+    "system_available_gib": 19.364856719970703,
+    "active_peak_tracks": 88,
+    "events": 5793
+  },
+  "data_quality": {
+    "status": "compromised",
+    "reason": "Operator intervention during sensor rewiring caused 83 multi-band-drop events (96% of frames). See INCIDENT_REPORT.md for full analysis.",
+    "incident_window_local": "2026-06-22T17:54:00+02:00 – 2026-06-22T19:05:00+02:00",
+    "total_frames": 310,
+    "clean_frames_before_incident": 12,
+    "compromised_frames": 298,
+    "multi_band_events": 83,
+    "max_db_drop_in_single_event": 101,
+    "usable_frames": "seq 0-11 only (12 frames, 2:51 min, before first incident event)",
+    "action": "DO NOT use for paper statistics. Use pilot-snapshot-sweeps (20260622_190618/190723/192633) and continuous run 20260623_233855 instead."
+  }
+}

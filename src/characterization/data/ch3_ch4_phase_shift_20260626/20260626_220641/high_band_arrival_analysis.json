@@ -1,0 +1,302 @@
+[
+  {
+    "frame": "frame_0000",
+    "band_hz": [
+      20000,
+      100000
+    ],
+    "event_us": 595.1200000000001,
+    "window_us": 160.0,
+    "delay_us": -0.4257500000000001,
+    "confidence": 13.488114817924473,
+    "c_eff_m_s_for_10mm": 23487.962419260126,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0000",
+    "band_hz": [
+      100000,
+      300000
+    ],
+    "event_us": 597.884,
+    "window_us": 160.0,
+    "delay_us": 0.32200000000000006,
+    "confidence": 29.096370372145884,
+    "c_eff_m_s_for_10mm": 31055.90062111801,
+    "phase_candidates": 1,
+    "top_phase_delay_us": 0.12047651081120654,
+    "top_phase_coherence": 0.9511815201975488,
+    "top_phase_band_hz": [
+      122070.31249999999,
+      244140.62499999997
+    ],
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0000",
+    "band_hz": [
+      300000,
+      1000000
+    ],
+    "event_us": 598.2200000000001,
+    "window_us": 160.0,
+    "delay_us": -0.038000000000000006,
+    "confidence": 26.279868954209004,
+    "c_eff_m_s_for_10mm": 263157.8947368421,
+    "phase_candidates": 1,
+    "top_phase_delay_us": -0.08272102973859098,
+    "top_phase_coherence": 0.8355906023355695,
+    "top_phase_band_hz": [
+      305175.78124999994,
+      549316.4062499999
+    ],
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": true,
+    "interpretation_note": "CH3/CH4 amplifiers are only usable to about 700 kHz; do not interpret this band above 700 kHz."
+  },
+  {
+    "frame": "frame_0001",
+    "band_hz": [
+      20000,
+      100000
+    ],
+    "event_us": 45.104000000000006,
+    "window_us": 125.10400000000001,
+    "delay_us": -0.773625,
+    "confidence": 13.31156808258928,
+    "c_eff_m_s_for_10mm": 12926.159314913555,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0001",
+    "band_hz": [
+      100000,
+      300000
+    ],
+    "event_us": 0.18000000000000002,
+    "window_us": 80.18,
+    "delay_us": 0.36062500000000003,
+    "confidence": 13.923434684464697,
+    "c_eff_m_s_for_10mm": 27729.63604852686,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0001",
+    "band_hz": [
+      300000,
+      1000000
+    ],
+    "event_us": 0.008,
+    "window_us": 80.00800000000001,
+    "delay_us": -0.7198750000000002,
+    "confidence": 23.696093688625705,
+    "c_eff_m_s_for_10mm": 13891.300573016146,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": true,
+    "interpretation_note": "CH3/CH4 amplifiers are only usable to about 700 kHz; do not interpret this band above 700 kHz."
+  },
+  {
+    "frame": "frame_0002",
+    "band_hz": [
+      20000,
+      100000
+    ],
+    "event_us": 1.7920000000000003,
+    "window_us": 81.792,
+    "delay_us": -0.9513750000000002,
+    "confidence": 4.995006741767087,
+    "c_eff_m_s_for_10mm": 10511.10235185915,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0002",
+    "band_hz": [
+      100000,
+      300000
+    ],
+    "event_us": 1.532,
+    "window_us": 81.53200000000001,
+    "delay_us": 0.4186250000000001,
+    "confidence": 6.384498362139449,
+    "c_eff_m_s_for_10mm": 23887.727679904445,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0002",
+    "band_hz": [
+      300000,
+      1000000
+    ],
+    "event_us": 6.348000000000001,
+    "window_us": 86.34800000000001,
+    "delay_us": 0.027000000000000003,
+    "confidence": 7.678776078697208,
+    "c_eff_m_s_for_10mm": 370370.37037037034,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": true,
+    "interpretation_note": "CH3/CH4 amplifiers are only usable to about 700 kHz; do not interpret this band above 700 kHz."
+  },
+  {
+    "frame": "frame_0003",
+    "band_hz": [
+      20000,
+      100000
+    ],
+    "event_us": 0.0,
+    "window_us": 80.0,
+    "delay_us": -0.8071250000000001,
+    "confidence": 9.226809337031035,
+    "c_eff_m_s_for_10mm": 12389.654638376953,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0003",
+    "band_hz": [
+      100000,
+      300000
+    ],
+    "event_us": 0.0,
+    "window_us": 80.0,
+    "delay_us": 0.38625000000000004,
+    "confidence": 17.404537360634922,
+    "c_eff_m_s_for_10mm": 25889.96763754045,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0003",
+    "band_hz": [
+      300000,
+      1000000
+    ],
+    "event_us": 0.0,
+    "window_us": 80.0,
+    "delay_us": 0.025375000000000005,
+    "confidence": 24.992035364078106,
+    "c_eff_m_s_for_10mm": 394088.66995073884,
+    "phase_candidates": 1,
+    "top_phase_delay_us": 0.01325519298547494,
+    "top_phase_coherence": 0.8829866742417805,
+    "top_phase_band_hz": [
+      305175.78124999994,
+      549316.4062499999
+    ],
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": true,
+    "interpretation_note": "CH3/CH4 amplifiers are only usable to about 700 kHz; do not interpret this band above 700 kHz."
+  },
+  {
+    "frame": "frame_0004",
+    "band_hz": [
+      20000,
+      100000
+    ],
+    "event_us": 1008.9040000000001,
+    "window_us": 160.0,
+    "delay_us": -0.6376250000000001,
+    "confidence": 13.03414933327971,
+    "c_eff_m_s_for_10mm": 15683.199372672023,
+    "phase_candidates": 0,
+    "top_phase_delay_us": null,
+    "top_phase_coherence": null,
+    "top_phase_band_hz": null,
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0004",
+    "band_hz": [
+      100000,
+      300000
+    ],
+    "event_us": 1012.092,
+    "window_us": 160.0,
+    "delay_us": 0.33037500000000003,
+    "confidence": 28.559649342368743,
+    "c_eff_m_s_for_10mm": 30268.634127884976,
+    "phase_candidates": 1,
+    "top_phase_delay_us": 0.28327975902490937,
+    "top_phase_coherence": 0.9222030308633196,
+    "top_phase_band_hz": [
+      122070.31249999999,
+      244140.62499999997
+    ],
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": false,
+    "interpretation_note": "Band is within the stated CH3/CH4 amplifier bandwidth."
+  },
+  {
+    "frame": "frame_0004",
+    "band_hz": [
+      300000,
+      1000000
+    ],
+    "event_us": 1012.7280000000001,
+    "window_us": 160.0,
+    "delay_us": -0.7816250000000001,
+    "confidence": 25.728277659945633,
+    "c_eff_m_s_for_10mm": 12793.8589477051,
+    "phase_candidates": 1,
+    "top_phase_delay_us": -0.07606908423451413,
+    "top_phase_coherence": 0.9288381471926643,
+    "top_phase_band_hz": [
+      305175.78124999994,
+      488281.24999999994
+    ],
+    "amplifier_bandwidth_hz": 700000,
+    "band_exceeds_amplifier_bandwidth": true,
+    "interpretation_note": "CH3/CH4 amplifiers are only usable to about 700 kHz; do not interpret this band above 700 kHz."
+  }
+]

@@ -1,0 +1,76 @@
+instrument:
+  visa_resource: "TCPIP::192.168.178.70::INSTR"
+  idn_expected_contains: ["RIGOL", "DS1104Z"]
+  timeout_ms: 10000
+
+oscilloscope:
+  channels: [1, 2]
+  channel_settings:
+    1:
+      enabled: true
+      label: "piezo_rod_lm358"
+      probe_ratio: 10
+      coupling: "AC"
+      vertical_scale_v_per_div: null
+      offset_v: null
+      amplitude_calibrated: false
+      notes: "Piezo on stainless-steel rod through unknown LM358 amplifier board."
+    2:
+      enabled: true
+      label: "piezo_plate_direct"
+      probe_ratio: 1
+      coupling: "AC"
+      vertical_scale_v_per_div: null
+      offset_v: null
+      amplitude_calibrated: false
+      notes: "Direct piezo on 0.8 mm stainless-steel plate."
+
+acquisition:
+  captures: 20
+  delay_between_captures_s: 1.0
+  memory_depth: "AUTO"
+  waveform_mode: "RAW"
+  waveform_format: "BYTE"
+  auto_setup_allowed: false
+  stop_before_read: true
+  restore_run_after_read: true
+
+processing:
+  remove_dc: true
+  detrend: true
+  window: "hann"
+  min_frequency_hz: 5
+  max_frequency_hz: null
+  welch:
+    enabled: true
+    nperseg: 4096
+    overlap: 0.5
+  stft:
+    enabled: true
+    nperseg: 2048
+    overlap: 0.75
+
+peak_detection:
+  prominence_db: 8
+  min_distance_hz: 20
+  max_peaks: 20
+  ignore_frequency_bands_hz:
+    - [48, 52]
+    - [98, 102]
+    - [148, 152]
+    - [198, 202]
+
+plausibility:
+  clipping_threshold_fraction: 0.98
+  min_snr_db: 6
+  repeatability_min_fraction: 0.4
+  mains_frequencies_hz: [50, 100, 150, 200]
+  switching_noise_check: true
+  aliasing_check: true
+
+output:
+  save_raw_csv: true
+  save_npz: true
+  save_plots: true
+  save_report_markdown: true
+  plot_format: "png"

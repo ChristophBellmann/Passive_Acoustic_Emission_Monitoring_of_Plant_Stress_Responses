@@ -1,0 +1,43 @@
+{
+  "run_id": "20260714_175238",
+  "phase": 3,
+  "utc_start": "2026-07-14T15:52:38.239461+00:00",
+  "config_path": "/home/pi/projekt_i1/src/characterization/configs/experiment_piezo_mems.yaml",
+  "bands_hz": [
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000,
+    35000,
+    40000,
+    45000,
+    50000,
+    55000,
+    60000,
+    65000,
+    70000,
+    75000,
+    80000,
+    85000,
+    90000,
+    95000,
+    100000
+  ],
+  "captures_target": 80,
+  "trigger": "Pico GP14 -> CH1, 10x probe, positive edge, 1.0 V displayed",
+  "excitation": "Pico GP15 sweep, 5\u2013100 kHz, 5 kHz step, 1.5 s per band",
+  "channels": {
+    "CH3": "MEMS microphone + existing LM amplifier, AC, 10x, 0.5 V/div",
+    "CH4": "MEMS microphone + existing LM amplifier, AC, 10x, 0.5 V/div"
+  },
+  "home_assistant_available": false,
+  "automatic_watering": false,
+  "temperature_recording": false,
+  "instrument_idn": "RIGOL TECHNOLOGIES,DS1104Z,DS1ZA201607099,00.04.04.SP3",
+  "utc_end": "2026-07-14T15:55:15.837497+00:00",
+  "captures_valid": 80,
+  "attempts": 91,
+  "transfer_errors": 11
+}

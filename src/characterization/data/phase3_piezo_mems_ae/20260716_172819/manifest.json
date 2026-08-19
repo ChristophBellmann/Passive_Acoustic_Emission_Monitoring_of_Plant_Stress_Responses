@@ -1,0 +1,34 @@
+{
+  "run_id": "20260716_172819",
+  "started_utc": "2026-07-16T15:28:19.196218+00:00",
+  "status": "acquiring",
+  "hardware_state": {
+    "ch1": "repaired piezo, manually verified by tapping immediately before run",
+    "ch3": "MEMS inserted in soil",
+    "ch4": "MEMS inserted in soil",
+    "ch2": "disabled (hardware defect)"
+  },
+  "geometry": "One MEMS nearer and one farther from presumed source; mapping/distances not recorded.",
+  "protocol": "passive AE search; no controlled excitation during acquisition",
+  "channels": [
+    1,
+    3,
+    4
+  ],
+  "frames_requested": 20,
+  "sample_rate_hz_requested": 500000,
+  "memory_depth_requested": 300000,
+  "verified_scope_profile": {
+    "profile": "deep_memory_500k",
+    "sample_rate_hz": 500000.0,
+    "memory_depth": 300000,
+    "horizontal_scale_s_per_div": 0.05,
+    "capture_duration_s": 0.6,
+    "frequency_resolution_hz": 1.6666666666666667,
+    "nyquist_hz": 250000.0,
+    "trigger_mode": "EDGE",
+    "trigger_source": "CHAN1",
+    "trigger_level_v": 0.005,
+    "trigger_sweep": "AUTO"
+  }
+}

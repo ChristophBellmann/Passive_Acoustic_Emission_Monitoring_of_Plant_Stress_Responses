@@ -1,0 +1,30 @@
+{
+  "n_frames_pilot": 5,
+  "pilot_ch3_ch1_db": 42.6,
+  "pilot_ch4_ch1_db": 25.5,
+  "pilot_ch3_ch4_db": 17.1,
+  "n_frames_cont": 2984,
+  "peak_38_ch1": 5,
+  "peak_38_ch3": 29,
+  "peak_38_ch4": 34,
+  "peak_66_ch1": 2,
+  "peak_66_ch3": 4,
+  "peak_66_ch4": 7,
+  "shared_freqs": [
+    1.5
+  ],
+  "watering_delta_ch3_db": 21.7,
+  "watering_peak_ch3_khz": 3.8,
+  "watering_temp": 51.0,
+  "watering_moisture": 25.5,
+  "watering_duration_s": 10,
+  "coh3800_mean": 0.434,
+  "coh3800_max": 1.0,
+  "coh3800_day_mean": 0.394,
+  "coh3800_night_mean": 0.523,
+  "coh3800_day_p50": 32.5,
+  "coh3800_night_p50": 47.0,
+  "coh3800_pct_gt95": 21.8,
+  "n_frames_51h": 2984,
+  "temp_max": 54.1
+}

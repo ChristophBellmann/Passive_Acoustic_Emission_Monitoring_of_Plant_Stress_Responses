@@ -1,0 +1,27 @@
+{
+  "run_id": "20260714_222600",
+  "status": "interrupted",
+  "timezone": "Europe/Berlin",
+  "day_start_hour": 6,
+  "night_start_hour": 22,
+  "sample_window_note": "Frames are 0.6 s snapshots separated by instrument/LAN transfer time; this is not gapless acquisition.",
+  "started_utc": "2026-07-14T20:26:00.367299+00:00",
+  "phase": 3,
+  "workflow_definition": "notebooks/04_continuous_frequency_sweep.ipynb",
+  "operator_entrypoint": "measurement.py start --no-push; equivalent NB00 control-panel backend",
+  "sensor_configuration": {
+    "CH1": "Piezo sensor through existing LM amplifier",
+    "CH3": "MEMS microphone A through existing LM amplifier",
+    "CH4": "MEMS microphone B through existing LM amplifier"
+  },
+  "home_assistant_available": false,
+  "automatic_watering": false,
+  "temperature_recording": false,
+  "power_supply": "original Raspberry Pi power supply restored after A/B test",
+  "measurement_context": "Manual watering immediately before the post-watering long run",
+  "watering_event": "data/phase3_events/20260714_222002_manual_watering.json",
+  "last_successful_frame_utc": "2026-07-15T20:06:33.048409+00:00",
+  "interruption_detected_utc": "2026-07-16T11:07:32+00:00",
+  "interruption_reason": "Rigol TCP connection reset followed by five consecutive errors; reconnect reported connected at 2026-07-15T20:05:42+00:00, appended one final parsable frame at 2026-07-15T20:06:33.048409+00:00, then produced no further frames or heartbeat updates.",
+  "continued_by_run_id": "20260716_130758"
+}

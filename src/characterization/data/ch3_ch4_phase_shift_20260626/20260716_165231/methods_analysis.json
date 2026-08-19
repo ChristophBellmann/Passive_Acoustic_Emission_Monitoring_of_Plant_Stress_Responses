@@ -1,0 +1,652 @@
+{
+  "run_id": "20260716_165231",
+  "measurement_context": {
+    "ch3": "MEMS inserted in soil; relative source distance not recorded",
+    "ch4": "MEMS inserted in soil; relative source distance not recorded",
+    "geometry_note": "User reported one MEMS farther and the other nearer; channel mapping and exact spacing unknown.",
+    "active_excitation": false
+  },
+  "methods": [
+    "DC removal and linear detrending; clipping/plausibility check",
+    "Welch PSD (nperseg=8192), 5-kHz band energy, prominence peaks",
+    "repeatability and CH3/CH4 level comparison",
+    "multi-segment coherence, multi-frame phase MLE, GCC-PHAT cross-check",
+    "Mann-Whitney first-half/second-half, Kendall trend, Benjamini-Hochberg FDR"
+  ],
+  "plausibility": {
+    "frames": 20,
+    "ch3_median_rms_mv": 306.7902916063425,
+    "ch4_median_rms_mv": 298.71007881672176,
+    "ch3_median_pp_mv": 1305.7032823562622,
+    "ch4_median_pp_mv": 1247.1872568130493,
+    "ch3_max_abs_v": 2.538867473602295,
+    "ch4_max_abs_v": 0.7195311188697815,
+    "median_ch4_ch3_rms_db": -0.23183471569799347
+  },
+  "spectral_peaks": {
+    "ch3": [
+      {
+        "frequency_hz": 32592.7734375,
+        "prominence_db": 27.838238676065018,
+        "psd_db_v2_per_hz": -67.5305883362784
+      },
+      {
+        "frequency_hz": 25329.58984375,
+        "prominence_db": 24.604836972165955,
+        "psd_db_v2_per_hz": -70.34095805448045
+      },
+      {
+        "frequency_hz": 31799.31640625,
+        "prominence_db": 24.056139542632977,
+        "psd_db_v2_per_hz": -68.25002430441035
+      },
+      {
+        "frequency_hz": 21728.515625,
+        "prominence_db": 23.77053801507121,
+        "psd_db_v2_per_hz": -70.70411014224801
+      },
+      {
+        "frequency_hz": 33447.265625,
+        "prominence_db": 23.69286534637962,
+        "psd_db_v2_per_hz": -68.67824902656852
+      },
+      {
+        "frequency_hz": 24536.1328125,
+        "prominence_db": 23.441898587796885,
+        "psd_db_v2_per_hz": -71.42605922975184
+      },
+      {
+        "frequency_hz": 20812.98828125,
+        "prominence_db": 22.911164368127316,
+        "psd_db_v2_per_hz": -70.95375989098982
+      },
+      {
+        "frequency_hz": 34362.79296875,
+        "prominence_db": 21.334325781216606,
+        "psd_db_v2_per_hz": -72.3547177705663
+      },
+      {
+        "frequency_hz": 30883.7890625,
+        "prominence_db": 21.1638460514273,
+        "psd_db_v2_per_hz": -71.65676322457759
+      },
+      {
+        "frequency_hz": 26245.1171875,
+        "prominence_db": 20.93323538881613,
+        "psd_db_v2_per_hz": -73.73835786804327
+      },
+      {
+        "frequency_hz": 22644.04296875,
+        "prominence_db": 20.765315793920053,
+        "psd_db_v2_per_hz": -74.09150540565787
+      },
+      {
+        "frequency_hz": 47058.10546875,
+        "prominence_db": 19.850214228731716,
+        "psd_db_v2_per_hz": -75.383597242375
+      }
+    ],
+    "ch4": [
+      {
+        "frequency_hz": 32592.7734375,
+        "prominence_db": 25.932694097563626,
+        "psd_db_v2_per_hz": -67.58374244454822
+      },
+      {
+        "frequency_hz": 31799.31640625,
+        "prominence_db": 23.92344783502257,
+        "psd_db_v2_per_hz": -68.30721644670642
+      },
+      {
+        "frequency_hz": 33447.265625,
+        "prominence_db": 23.815827131719345,
+        "psd_db_v2_per_hz": -68.73307058214144
+      },
+      {
+        "frequency_hz": 25329.58984375,
+        "prominence_db": 22.96462987131129,
+        "psd_db_v2_per_hz": -70.38773757183996
+      },
+      {
+        "frequency_hz": 24536.1328125,
+        "prominence_db": 21.251342978543093,
+        "psd_db_v2_per_hz": -71.47609630198052
+      },
+      {
+        "frequency_hz": 34362.79296875,
+        "prominence_db": 21.038034125292356,
+        "psd_db_v2_per_hz": -72.3792408959031
+      },
+      {
+        "frequency_hz": 30883.7890625,
+        "prominence_db": 20.8671995349017,
+        "psd_db_v2_per_hz": -71.69813112732894
+      },
+      {
+        "frequency_hz": 21728.515625,
+        "prominence_db": 20.75093445556479,
+        "psd_db_v2_per_hz": -70.87054394393382
+      },
+      {
+        "frequency_hz": 47058.10546875,
+        "prominence_db": 19.939714270472933,
+        "psd_db_v2_per_hz": -75.42946613732586
+      },
+      {
+        "frequency_hz": 22644.04296875,
+        "prominence_db": 19.13700708618518,
+        "psd_db_v2_per_hz": -74.12828338783304
+      },
+      {
+        "frequency_hz": 26245.1171875,
+        "prominence_db": 18.467002917242482,
+        "psd_db_v2_per_hz": -73.76240520282737
+      },
+      {
+        "frequency_hz": 43395.99609375,
+        "prominence_db": 18.44734086926428,
+        "psd_db_v2_per_hz": -77.09229709649148
+      }
+    ]
+  },
+  "transient_screening": {
+    "method": "20-100 kHz bandpass, Hilbert envelope, median + 8 robust sigma, 0.5 ms dead time",
+    "frames": [
+      {
+        "frame": 0,
+        "ch3_candidates": 544,
+        "ch4_candidates": 544,
+        "coincident_within_200us": 515,
+        "ch3_crest_factor": 6.368818249669387,
+        "ch4_crest_factor": 6.429660907538848
+      },
+      {
+        "frame": 1,
+        "ch3_candidates": 545,
+        "ch4_candidates": 545,
+        "coincident_within_200us": 527,
+        "ch3_crest_factor": 6.1668739239783985,
+        "ch4_crest_factor": 6.42030994020035
+      },
+      {
+        "frame": 2,
+        "ch3_candidates": 544,
+        "ch4_candidates": 544,
+        "coincident_within_200us": 521,
+        "ch3_crest_factor": 6.295246707583041,
+        "ch4_crest_factor": 6.075435871597034
+      },
+      {
+        "frame": 3,
+        "ch3_candidates": 544,
+        "ch4_candidates": 544,
+        "coincident_within_200us": 524,
+        "ch3_crest_factor": 6.449393546031416,
+        "ch4_crest_factor": 6.51653261964298
+      },
+      {
+        "frame": 4,
+        "ch3_candidates": 543,
+        "ch4_candidates": 543,
+        "coincident_within_200us": 521,
+        "ch3_crest_factor": 6.209787789050169,
+        "ch4_crest_factor": 6.090937747414319
+      },
+      {
+        "frame": 5,
+        "ch3_candidates": 544,
+        "ch4_candidates": 544,
+        "coincident_within_200us": 518,
+        "ch3_crest_factor": 5.94829162338459,
+        "ch4_crest_factor": 6.364805400019236
+      },
+      {
+        "frame": 6,
+        "ch3_candidates": 543,
+        "ch4_candidates": 543,
+        "coincident_within_200us": 524,
+        "ch3_crest_factor": 6.099208905199156,
+        "ch4_crest_factor": 6.142291039494779
+      },
+      {
+        "frame": 7,
+        "ch3_candidates": 542,
+        "ch4_candidates": 542,
+        "coincident_within_200us": 526,
+        "ch3_crest_factor": 6.23859086515497,
+        "ch4_crest_factor": 6.427660143467615
+      },
+      {
+        "frame": 8,
+        "ch3_candidates": 542,
+        "ch4_candidates": 542,
+        "coincident_within_200us": 524,
+        "ch3_crest_factor": 6.556810910689964,
+        "ch4_crest_factor": 6.227501806363941
+      },
+      {
+        "frame": 9,
+        "ch3_candidates": 542,
+        "ch4_candidates": 542,
+        "coincident_within_200us": 517,
+        "ch3_crest_factor": 6.375070150588323,
+        "ch4_crest_factor": 6.285810099739054
+      },
+      {
+        "frame": 10,
+        "ch3_candidates": 542,
+        "ch4_candidates": 542,
+        "coincident_within_200us": 516,
+        "ch3_crest_factor": 6.128144043862727,
+        "ch4_crest_factor": 6.431348874453786
+      },
+      {
+        "frame": 11,
+        "ch3_candidates": 543,
+        "ch4_candidates": 543,
+        "coincident_within_200us": 521,
+        "ch3_crest_factor": 6.296323256982328,
+        "ch4_crest_factor": 6.364882672871636
+      },
+      {
+        "frame": 12,
+        "ch3_candidates": 544,
+        "ch4_candidates": 544,
+        "coincident_within_200us": 513,
+        "ch3_crest_factor": 6.172592134829859,
+        "ch4_crest_factor": 6.080373976768355
+      },
+      {
+        "frame": 13,
+        "ch3_candidates": 541,
+        "ch4_candidates": 545,
+        "coincident_within_200us": 516,
+        "ch3_crest_factor": 29.779758328999467,
+        "ch4_crest_factor": 6.3133015509522545
+      },
+      {
+        "frame": 14,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 528,
+        "ch3_crest_factor": 6.3671092220479855,
+        "ch4_crest_factor": 6.188508582251812
+      },
+      {
+        "frame": 15,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 510,
+        "ch3_crest_factor": 6.012225641157069,
+        "ch4_crest_factor": 6.167126055764362
+      },
+      {
+        "frame": 16,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 520,
+        "ch3_crest_factor": 6.51489160662104,
+        "ch4_crest_factor": 6.856191274357266
+      },
+      {
+        "frame": 17,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 520,
+        "ch3_crest_factor": 6.298606594812851,
+        "ch4_crest_factor": 6.34647170065168
+      },
+      {
+        "frame": 18,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 521,
+        "ch3_crest_factor": 5.958451424680591,
+        "ch4_crest_factor": 6.220086852046268
+      },
+      {
+        "frame": 19,
+        "ch3_candidates": 546,
+        "ch4_candidates": 546,
+        "coincident_within_200us": 510,
+        "ch3_crest_factor": 6.180215965083959,
+        "ch4_crest_factor": 6.333722832180659
+      }
+    ],
+    "ch3_candidates_total": 10879,
+    "ch4_candidates_total": 10883,
+    "coincident_total": 10392
+  },
+  "band_analysis": [
+    {
+      "low_hz": 20000.0,
+      "high_hz": 25000.0,
+      "ch3_energy_db": -41.95171932538799,
+      "ch4_energy_db": -41.916929773622456,
+      "ch4_minus_ch3_db": 0.034789551765537906,
+      "ch3_half_mwu_p": 0.011329696684474666,
+      "ch4_half_mwu_p": 0.161972410480126,
+      "ch3_half_mwu_p_fdr": 0.07476947794111974,
+      "ch4_half_mwu_p_fdr": 0.3702226525260023
+    },
+    {
+      "low_hz": 25000.0,
+      "high_hz": 30000.0,
+      "ch3_energy_db": -44.55947187505978,
+      "ch4_energy_db": -44.43822255612616,
+      "ch4_minus_ch3_db": 0.12124931893361318,
+      "ch3_half_mwu_p": 0.025748080821108073,
+      "ch4_half_mwu_p": 0.011329696684474666,
+      "ch3_half_mwu_p_fdr": 0.1029923232844323,
+      "ch4_half_mwu_p_fdr": 0.07476947794111974
+    },
+    {
+      "low_hz": 30000.0,
+      "high_hz": 35000.0,
+      "ch3_energy_db": -38.38846565075203,
+      "ch4_energy_db": -38.433472783743255,
+      "ch4_minus_ch3_db": -0.04500713299122696,
+      "ch3_half_mwu_p": 0.0072845570094796615,
+      "ch4_half_mwu_p": 0.3074894566186813,
+      "ch3_half_mwu_p_fdr": 0.07476947794111974,
+      "ch4_half_mwu_p_fdr": 0.5788036830469295
+    },
+    {
+      "low_hz": 35000.0,
+      "high_hz": 40000.0,
+      "ch3_energy_db": -51.65089640202538,
+      "ch4_energy_db": -51.69231307465492,
+      "ch4_minus_ch3_db": -0.041416672629541844,
+      "ch3_half_mwu_p": 0.031209012771740218,
+      "ch4_half_mwu_p": 0.014019277113959951,
+      "ch3_half_mwu_p_fdr": 0.11096537874396521,
+      "ch4_half_mwu_p_fdr": 0.07476947794111974
+    },
+    {
+      "low_hz": 40000.0,
+      "high_hz": 45000.0,
+      "ch3_energy_db": -47.85112880956247,
+      "ch4_energy_db": -47.86649450380162,
+      "ch4_minus_ch3_db": -0.015365694239152666,
+      "ch3_half_mwu_p": 0.10410988966022681,
+      "ch4_half_mwu_p": 0.5707503880581739,
+      "ch3_half_mwu_p_fdr": 0.2776263724272715,
+      "ch4_half_mwu_p_fdr": 0.7940874964287636
+    },
+    {
+      "low_hz": 45000.0,
+      "high_hz": 50000.0,
+      "ch3_energy_db": -44.922090728944006,
+      "ch4_energy_db": -44.94070731581825,
+      "ch4_minus_ch3_db": -0.018616586874247543,
+      "ch3_half_mwu_p": 0.4273553138978077,
+      "ch4_half_mwu_p": 0.3846730627355087,
+      "ch3_half_mwu_p_fdr": 0.6837685022364923,
+      "ch4_half_mwu_p_fdr": 0.6837685022364923
+    },
+    {
+      "low_hz": 50000.0,
+      "high_hz": 55000.0,
+      "ch3_energy_db": -49.2250463873215,
+      "ch4_energy_db": -49.24779129397508,
+      "ch4_minus_ch3_db": -0.02274490665358637,
+      "ch3_half_mwu_p": 0.14046504815835498,
+      "ch4_half_mwu_p": 0.18587673236587599,
+      "ch3_half_mwu_p_fdr": 0.345760118543643,
+      "ch4_half_mwu_p_fdr": 0.3965370290472021
+    },
+    {
+      "low_hz": 55000.0,
+      "high_hz": 60000.0,
+      "ch3_energy_db": -49.831094512045155,
+      "ch4_energy_db": -49.886387809395046,
+      "ch4_minus_ch3_db": -0.055293297349901245,
+      "ch3_half_mwu_p": 0.8501067391385259,
+      "ch4_half_mwu_p": 0.8501067391385259,
+      "ch3_half_mwu_p_fdr": 0.9067805217477609,
+      "ch4_half_mwu_p_fdr": 0.9067805217477609
+    },
+    {
+      "low_hz": 60000.0,
+      "high_hz": 65000.0,
+      "ch3_energy_db": -51.240671206855055,
+      "ch4_energy_db": -51.332363047306835,
+      "ch4_minus_ch3_db": -0.09169184045178558,
+      "ch3_half_mwu_p": 0.014019277113959951,
+      "ch4_half_mwu_p": 0.017257456083119765,
+      "ch3_half_mwu_p_fdr": 0.07476947794111974,
+      "ch4_half_mwu_p_fdr": 0.0788912278085475
+    },
+    {
+      "low_hz": 65000.0,
+      "high_hz": 70000.0,
+      "ch3_energy_db": -49.36838556000258,
+      "ch4_energy_db": -49.45267796632628,
+      "ch4_minus_ch3_db": -0.08429240632369836,
+      "ch3_half_mwu_p": 0.21229383619233166,
+      "ch4_half_mwu_p": 0.07566157214388701,
+      "ch3_half_mwu_p_fdr": 0.42458767238466333,
+      "ch4_half_mwu_p_fdr": 0.22010639169130766
+    },
+    {
+      "low_hz": 70000.0,
+      "high_hz": 75000.0,
+      "ch3_energy_db": -52.802218161419,
+      "ch4_energy_db": -53.207163216469944,
+      "ch4_minus_ch3_db": -0.4049450550509376,
+      "ch3_half_mwu_p": 0.05390255716938719,
+      "ch4_half_mwu_p": 0.009108496398030965,
+      "ch3_half_mwu_p_fdr": 0.17248818294203902,
+      "ch4_half_mwu_p_fdr": 0.07476947794111974
+    },
+    {
+      "low_hz": 75000.0,
+      "high_hz": 80000.0,
+      "ch3_energy_db": -50.66133917825319,
+      "ch4_energy_db": -51.087472725666075,
+      "ch4_minus_ch3_db": -0.4261335474128875,
+      "ch3_half_mwu_p": 0.47267559351158717,
+      "ch4_half_mwu_p": 0.4273553138978077,
+      "ch3_half_mwu_p_fdr": 0.7202675710652756,
+      "ch4_half_mwu_p_fdr": 0.6837685022364923
+    },
+    {
+      "low_hz": 80000.0,
+      "high_hz": 85000.0,
+      "ch3_energy_db": -51.13156241245968,
+      "ch4_energy_db": -51.96997783627161,
+      "ch4_minus_ch3_db": -0.8384154238119288,
+      "ch3_half_mwu_p": 0.9097218891455553,
+      "ch4_half_mwu_p": 0.8501067391385259,
+      "ch3_half_mwu_p_fdr": 0.9097218891455553,
+      "ch4_half_mwu_p_fdr": 0.9067805217477609
+    },
+    {
+      "low_hz": 85000.0,
+      "high_hz": 90000.0,
+      "ch3_energy_db": -50.70803763305294,
+      "ch4_energy_db": -51.851095952039486,
+      "ch4_minus_ch3_db": -1.1430583189865542,
+      "ch3_half_mwu_p": 0.7337299956962472,
+      "ch4_half_mwu_p": 0.6775849579524755,
+      "ch3_half_mwu_p_fdr": 0.9030523023953813,
+      "ch4_half_mwu_p_fdr": 0.8673087461791686
+    },
+    {
+      "low_hz": 90000.0,
+      "high_hz": 95000.0,
+      "ch3_energy_db": -49.518200213514234,
+      "ch4_energy_db": -51.05871598823292,
+      "ch4_minus_ch3_db": -1.540515774718685,
+      "ch3_half_mwu_p": 0.8501067391385259,
+      "ch4_half_mwu_p": 0.9097218891455553,
+      "ch3_half_mwu_p_fdr": 0.9067805217477609,
+      "ch4_half_mwu_p_fdr": 0.9097218891455553
+    },
+    {
+      "low_hz": 95000.0,
+      "high_hz": 100000.0,
+      "ch3_energy_db": -45.38452070451811,
+      "ch4_energy_db": -47.55320461095767,
+      "ch4_minus_ch3_db": -2.16868390643956,
+      "ch3_half_mwu_p": 0.6775849579524755,
+      "ch4_half_mwu_p": 0.5707503880581739,
+      "ch3_half_mwu_p_fdr": 0.8673087461791686,
+      "ch4_half_mwu_p_fdr": 0.7940874964287636
+    }
+  ],
+  "coherence": {
+    "mean_20_100khz": 0.6025420681271701,
+    "median_20_100khz": 0.7041870949434271,
+    "max_20_100khz": 0.9972872180531844,
+    "frequency_of_max_hz": 32592.7734375
+  },
+  "tde": {
+    "gcc_phat": {
+      "gcc_phat_delay_us_median": 0.0,
+      "gcc_phat_delay_us_mean": 0.0,
+      "gcc_phat_delay_us_std": 0.0,
+      "gcc_phat_delay_us_min": 0.0,
+      "gcc_phat_delay_us_max": 0.0,
+      "frames": 20
+    },
+    "phase_mle_bands": [
+      {
+        "low_hz": 20000.0,
+        "high_hz": 25000.0,
+        "weighted_frequency_hz": 22368.687959344334,
+        "coherence_mf": 0.928952675324165,
+        "phase_rad": -0.0056140458771241734,
+        "delay_us": 0.039944370171060214
+      },
+      {
+        "low_hz": 25000.0,
+        "high_hz": 30000.0,
+        "weighted_frequency_hz": 26439.579783871042,
+        "coherence_mf": 0.8900467391534271,
+        "phase_rad": -0.003783009825743525,
+        "delay_us": 0.02277209843930961
+      },
+      {
+        "low_hz": 30000.0,
+        "high_hz": 35000.0,
+        "weighted_frequency_hz": 32531.30730308388,
+        "coherence_mf": 0.9808399814258009,
+        "phase_rad": -0.0019001855620185974,
+        "delay_us": 0.009296396304320734
+      },
+      {
+        "low_hz": 35000.0,
+        "high_hz": 40000.0,
+        "weighted_frequency_hz": 37843.83188737529,
+        "coherence_mf": 0.6867617747752428,
+        "phase_rad": 0.00193631581031229,
+        "delay_us": -0.008143314702256585
+      },
+      {
+        "low_hz": 40000.0,
+        "high_hz": 45000.0,
+        "weighted_frequency_hz": 42886.11169739765,
+        "coherence_mf": 0.8603173249764371,
+        "phase_rad": 0.000327726691699912,
+        "delay_us": -0.0012162287720376308
+      },
+      {
+        "low_hz": 45000.0,
+        "high_hz": 50000.0,
+        "weighted_frequency_hz": 47630.92190565657,
+        "coherence_mf": 0.9276496320018808,
+        "phase_rad": 0.0035009331241163126,
+        "delay_us": -0.011698090018935618
+      },
+      {
+        "low_hz": 50000.0,
+        "high_hz": 55000.0,
+        "weighted_frequency_hz": 51975.87575836502,
+        "coherence_mf": 0.8192516769590802,
+        "phase_rad": 0.005447109864624652,
+        "delay_us": -0.016679554656279426
+      },
+      {
+        "low_hz": 55000.0,
+        "high_hz": 60000.0,
+        "weighted_frequency_hz": 57692.403711729494,
+        "coherence_mf": 0.7956485376954555,
+        "phase_rad": 0.0055263002467284515,
+        "delay_us": -0.01524529998215301
+      },
+      {
+        "low_hz": 60000.0,
+        "high_hz": 65000.0,
+        "weighted_frequency_hz": 63583.41933251841,
+        "coherence_mf": 0.7342090430256223,
+        "phase_rad": 0.0023360043795241886,
+        "delay_us": -0.005847226336496314
+      },
+      {
+        "low_hz": 65000.0,
+        "high_hz": 70000.0,
+        "weighted_frequency_hz": 66235.76164678027,
+        "coherence_mf": 0.8279018643777872,
+        "phase_rad": 0.007044754394756469,
+        "delay_us": -0.016927524601785076
+      },
+      {
+        "low_hz": 70000.0,
+        "high_hz": 75000.0,
+        "weighted_frequency_hz": 72687.55585069806,
+        "coherence_mf": 0.6461359580062219,
+        "phase_rad": -0.004910486058830109,
+        "delay_us": 0.010751883456529044
+      },
+      {
+        "low_hz": 75000.0,
+        "high_hz": 80000.0,
+        "weighted_frequency_hz": 77576.43513015773,
+        "coherence_mf": 0.7785835568092858,
+        "phase_rad": -0.0003408737188409823,
+        "delay_us": 0.0006993326933963351
+      },
+      {
+        "low_hz": 80000.0,
+        "high_hz": 85000.0,
+        "weighted_frequency_hz": 82084.84677872554,
+        "coherence_mf": 0.7423360187828012,
+        "phase_rad": -0.011332223130175408,
+        "delay_us": 0.021972134908768235
+      },
+      {
+        "low_hz": 85000.0,
+        "high_hz": 90000.0,
+        "weighted_frequency_hz": 87656.92189879125,
+        "coherence_mf": 0.7572735535261925,
+        "phase_rad": -0.023199677057412212,
+        "delay_us": 0.042122666434556914
+      },
+      {
+        "low_hz": 90000.0,
+        "high_hz": 95000.0,
+        "weighted_frequency_hz": 92201.82071732814,
+        "coherence_mf": 0.7955523027217383,
+        "phase_rad": -0.02663107428549501,
+        "delay_us": 0.04596945135582806
+      },
+      {
+        "low_hz": 95000.0,
+        "high_hz": 100000.0,
+        "weighted_frequency_hz": 98193.51281530014,
+        "coherence_mf": 0.902488812111846,
+        "phase_rad": -0.04021782403328499,
+        "delay_us": 0.0651862359516277
+      }
+    ]
+  },
+  "temporal_statistics": {
+    "ch3_kendall_tau": -0.25263157894736843,
+    "ch3_kendall_p": 0.12841351117075267,
+    "ch4_kendall_tau": -0.35789473684210527,
+    "ch4_kendall_p": 0.02832862734229191,
+    "fdr_significant_half_comparisons": 0,
+    "half_comparisons_total": 32
+  }
+}

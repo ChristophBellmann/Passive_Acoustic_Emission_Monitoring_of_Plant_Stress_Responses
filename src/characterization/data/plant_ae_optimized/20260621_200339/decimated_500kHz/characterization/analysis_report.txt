@@ -1,0 +1,276 @@
+================================================================================
+SYSTEMATIC CHARACTERIZATION: PLANT AE (0-100 kHz)
+================================================================================
+Created: 2026-06-22 00:05:06
+Analyzed Bands: 20
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Number of Peaks: 128
+Total Energy: 2.26e-02
+Most Energetic Band: 0-5kHz (1.35e-02)
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+
+Band: 0-5kHz
+  Frequency Range: 0.0 - 5.0 kHz
+  Band Energy: 1.35e-02
+  Max. Amplitude: 80.40 mV
+  Number of Peaks: 2
+  Top Peaks:
+    1. 4.75 kHz (80.40 mV)
+    2. 3.75 kHz (9.13 mV)
+
+Band: 5-10kHz
+  Frequency Range: 5.0 - 10.0 kHz
+  Band Energy: 3.98e-03
+  Max. Amplitude: 31.41 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 9.50 kHz (25.86 mV)
+    2. 9.00 kHz (24.37 mV)
+    3. 7.75 kHz (11.20 mV)
+    4. 7.00 kHz (9.94 mV)
+    5. 5.50 kHz (9.57 mV)
+
+Band: 10-15kHz
+  Frequency Range: 10.0 - 15.0 kHz
+  Band Energy: 1.44e-03
+  Max. Amplitude: 18.09 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 13.50 kHz (18.09 mV)
+    2. 14.50 kHz (12.61 mV)
+    3. 11.75 kHz (10.75 mV)
+    4. 12.75 kHz (8.44 mV)
+    5. 10.50 kHz (8.09 mV)
+
+Band: 15-20kHz
+  Frequency Range: 15.0 - 20.0 kHz
+  Band Energy: 6.25e-04
+  Max. Amplitude: 11.65 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 18.25 kHz (11.65 mV)
+    2. 19.25 kHz (7.55 mV)
+    3. 15.50 kHz (6.53 mV)
+    4. 17.50 kHz (5.92 mV)
+    5. 19.75 kHz (5.44 mV)
+
+Band: 20-25kHz
+  Frequency Range: 20.0 - 25.0 kHz
+  Band Energy: 3.08e-04
+  Max. Amplitude: 7.34 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 24.00 kHz (7.34 mV)
+    2. 23.00 kHz (6.15 mV)
+    3. 20.50 kHz (5.26 mV)
+    4. 21.75 kHz (4.36 mV)
+    5. 24.50 kHz (3.57 mV)
+
+Band: 25-30kHz
+  Frequency Range: 25.0 - 30.0 kHz
+  Band Energy: 1.90e-04
+  Max. Amplitude: 5.18 mV
+  Number of Peaks: 8
+  Top Peaks:
+    1. 28.75 kHz (5.18 mV)
+    2. 25.25 kHz (4.87 mV)
+    3. 27.00 kHz (4.57 mV)
+    4. 27.75 kHz (4.31 mV)
+    5. 26.50 kHz (3.95 mV)
+
+Band: 30-35kHz
+  Frequency Range: 30.0 - 35.0 kHz
+  Band Energy: 1.27e-04
+  Max. Amplitude: 4.32 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 33.00 kHz (4.32 mV)
+    2. 31.25 kHz (3.72 mV)
+    3. 32.50 kHz (3.63 mV)
+    4. 31.75 kHz (3.58 mV)
+    5. 34.25 kHz (2.60 mV)
+
+Band: 35-40kHz
+  Frequency Range: 35.0 - 40.0 kHz
+  Band Energy: 1.06e-04
+  Max. Amplitude: 3.99 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 37.50 kHz (3.99 mV)
+    2. 36.00 kHz (3.36 mV)
+    3. 36.50 kHz (3.07 mV)
+    4. 37.00 kHz (2.89 mV)
+    5. 39.75 kHz (2.45 mV)
+
+Band: 40-45kHz
+  Frequency Range: 40.0 - 45.0 kHz
+  Band Energy: 7.68e-05
+  Max. Amplitude: 4.33 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 41.25 kHz (4.33 mV)
+    2. 42.25 kHz (3.26 mV)
+    3. 40.50 kHz (2.46 mV)
+    4. 44.25 kHz (2.40 mV)
+    5. 43.50 kHz (2.24 mV)
+
+Band: 45-50kHz
+  Frequency Range: 45.0 - 50.0 kHz
+  Band Energy: 7.32e-05
+  Max. Amplitude: 4.96 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 46.00 kHz (4.96 mV)
+    2. 48.50 kHz (2.67 mV)
+    3. 45.25 kHz (2.35 mV)
+    4. 47.75 kHz (2.10 mV)
+    5. 47.00 kHz (1.90 mV)
+
+Band: 50-55kHz
+  Frequency Range: 50.0 - 55.0 kHz
+  Band Energy: 6.56e-05
+  Max. Amplitude: 4.07 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 51.00 kHz (4.07 mV)
+    2. 53.25 kHz (2.97 mV)
+    3. 52.00 kHz (2.03 mV)
+    4. 52.50 kHz (1.80 mV)
+    5. 54.75 kHz (1.55 mV)
+
+Band: 55-60kHz
+  Frequency Range: 55.0 - 60.0 kHz
+  Band Energy: 6.44e-05
+  Max. Amplitude: 4.28 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 55.75 kHz (4.28 mV)
+    2. 57.75 kHz (2.81 mV)
+    3. 59.50 kHz (1.88 mV)
+    4. 56.25 kHz (1.86 mV)
+    5. 59.00 kHz (1.84 mV)
+
+Band: 60-65kHz
+  Frequency Range: 60.0 - 65.0 kHz
+  Band Energy: 8.40e-05
+  Max. Amplitude: 4.01 mV
+  Number of Peaks: 8
+  Top Peaks:
+    1. 60.50 kHz (4.01 mV)
+    2. 61.00 kHz (3.43 mV)
+    3. 62.25 kHz (3.13 mV)
+    4. 63.75 kHz (2.69 mV)
+    5. 62.75 kHz (2.46 mV)
+
+Band: 65-70kHz
+  Frequency Range: 65.0 - 70.0 kHz
+  Band Energy: 6.99e-05
+  Max. Amplitude: 3.33 mV
+  Number of Peaks: 9
+  Top Peaks:
+    1. 65.25 kHz (3.33 mV)
+    2. 67.50 kHz (2.85 mV)
+    3. 65.75 kHz (2.47 mV)
+    4. 67.00 kHz (2.04 mV)
+    5. 69.25 kHz (1.97 mV)
+
+Band: 70-75kHz
+  Frequency Range: 70.0 - 75.0 kHz
+  Band Energy: 1.60e-03
+  Max. Amplitude: 36.70 mV
+  Number of Peaks: 4
+  Top Peaks:
+    1. 71.00 kHz (36.70 mV)
+    2. 70.25 kHz (5.46 mV)
+    3. 71.75 kHz (4.31 mV)
+    4. 74.75 kHz (3.89 mV)
+
+Band: 75-80kHz
+  Frequency Range: 75.0 - 80.0 kHz
+  Band Energy: 5.79e-05
+  Max. Amplitude: 3.19 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 77.25 kHz (3.19 mV)
+    2. 76.00 kHz (2.57 mV)
+    3. 77.75 kHz (2.34 mV)
+    4. 76.50 kHz (2.14 mV)
+    5. 78.75 kHz (2.03 mV)
+
+Band: 80-85kHz
+  Frequency Range: 80.0 - 85.0 kHz
+  Band Energy: 4.59e-05
+  Max. Amplitude: 3.10 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 82.00 kHz (3.10 mV)
+    2. 82.75 kHz (2.31 mV)
+    3. 83.75 kHz (2.29 mV)
+    4. 80.75 kHz (2.24 mV)
+    5. 81.25 kHz (2.01 mV)
+
+Band: 85-90kHz
+  Frequency Range: 85.0 - 90.0 kHz
+  Band Energy: 4.57e-05
+  Max. Amplitude: 2.49 mV
+  Number of Peaks: 7
+  Top Peaks:
+    1. 85.50 kHz (2.49 mV)
+    2. 87.50 kHz (2.47 mV)
+    3. 89.50 kHz (1.98 mV)
+    4. 86.25 kHz (1.83 mV)
+    5. 89.00 kHz (1.75 mV)
+
+Band: 90-95kHz
+  Frequency Range: 90.0 - 95.0 kHz
+  Band Energy: 4.68e-05
+  Max. Amplitude: 2.61 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 90.25 kHz (2.61 mV)
+    2. 92.25 kHz (2.48 mV)
+    3. 94.50 kHz (1.96 mV)
+    4. 91.00 kHz (1.92 mV)
+    5. 93.75 kHz (1.91 mV)
+
+Band: 95-100kHz
+  Frequency Range: 95.0 - 100.0 kHz
+  Band Energy: 4.07e-05
+  Max. Amplitude: 2.53 mV
+  Number of Peaks: 6
+  Top Peaks:
+    1. 98.75 kHz (2.53 mV)
+    2. 96.25 kHz (2.11 mV)
+    3. 99.25 kHz (1.82 mV)
+    4. 95.50 kHz (1.75 mV)
+    5. 98.00 kHz (1.54 mV)
+
+RECOMMENDATIONS
+--------------------------------------------------------------------------------
+Significant signals found in 20 bands:
+  - 0-5kHz: 2 peaks, energy 1.35e-02
+  - 5-10kHz: 7 peaks, energy 3.98e-03
+  - 10-15kHz: 6 peaks, energy 1.44e-03
+  - 15-20kHz: 7 peaks, energy 6.25e-04
+  - 20-25kHz: 6 peaks, energy 3.08e-04
+  - 25-30kHz: 8 peaks, energy 1.90e-04
+  - 30-35kHz: 7 peaks, energy 1.27e-04
+  - 35-40kHz: 6 peaks, energy 1.06e-04
+  - 40-45kHz: 6 peaks, energy 7.68e-05
+  - 45-50kHz: 7 peaks, energy 7.32e-05
+  - 50-55kHz: 7 peaks, energy 6.56e-05
+  - 55-60kHz: 6 peaks, energy 6.44e-05
+  - 60-65kHz: 8 peaks, energy 8.40e-05
+  - 65-70kHz: 9 peaks, energy 6.99e-05
+  - 70-75kHz: 4 peaks, energy 1.60e-03
+  - 75-80kHz: 7 peaks, energy 5.79e-05
+  - 80-85kHz: 6 peaks, energy 4.59e-05
+  - 85-90kHz: 7 peaks, energy 4.57e-05
+  - 90-95kHz: 6 peaks, energy 4.68e-05
+  - 95-100kHz: 6 peaks, energy 4.07e-05
+
+================================================================================

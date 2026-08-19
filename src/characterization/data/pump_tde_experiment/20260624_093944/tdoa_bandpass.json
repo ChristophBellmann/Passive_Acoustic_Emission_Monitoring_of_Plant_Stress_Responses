@@ -1,0 +1,14 @@
+{
+  "method": "gcc_phat_bandpass_1_20kHz",
+  "tde_ms": {
+    "ch1ch3": 0.0,
+    "ch1ch4": 0.0,
+    "ch3ch4": 0.0
+  },
+  "tde_std_ms": {
+    "ch1ch3": 0.0,
+    "ch1ch4": 0.0,
+    "ch3ch4": 0.0008660254037844387
+  },
+  "consistency_ms": 0.0
+}

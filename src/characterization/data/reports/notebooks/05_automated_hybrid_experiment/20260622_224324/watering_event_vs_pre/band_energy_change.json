@@ -1,0 +1,248 @@
+{
+  "1": {
+    "energy_0_5khz": {
+      "change_db": -0.6685120681899265,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_5_10khz": {
+      "change_db": 0.10367957188598603,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_10_15khz": {
+      "change_db": 0.16685190763086236,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_15_20khz": {
+      "change_db": 0.28761183311976274,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_20_25khz": {
+      "change_db": 0.3333001023332374,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_25_30khz": {
+      "change_db": -0.3770950785947378,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_30_35khz": {
+      "change_db": 0.48098239631358775,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_35_40khz": {
+      "change_db": 0.6806325215608028,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_40_45khz": {
+      "change_db": 0.5444088806660794,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_45_50khz": {
+      "change_db": 0.7106779253130885,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_50_55khz": {
+      "change_db": 0.9026916401243565,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_55_60khz": {
+      "change_db": 1.1891229580740488,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_60_65khz": {
+      "change_db": 1.1056096504705606,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_65_70khz": {
+      "change_db": 1.2981660282698735,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_70_75khz": {
+      "change_db": 1.1940116327454862,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_75_80khz": {
+      "change_db": 1.4062404379347024,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_80_85khz": {
+      "change_db": 1.3007356409195978,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_85_90khz": {
+      "change_db": 1.4367153048351469,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_90_95khz": {
+      "change_db": 1.492282683168205,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_95_100khz": {
+      "change_db": 1.6024493762866954,
+      "p_value_unadjusted": 0.5
+    }
+  },
+  "2": {
+    "energy_0_5khz": {
+      "change_db": -0.9545720397415736,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_5_10khz": {
+      "change_db": -1.1509065113215793,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_10_15khz": {
+      "change_db": 0.11396242546204811,
+      "p_value_unadjusted": 1.0
+    },
+    "energy_15_20khz": {
+      "change_db": 1.8281104456676576,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_20_25khz": {
+      "change_db": 1.2714960177869212,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_25_30khz": {
+      "change_db": -0.7121399719498258,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_30_35khz": {
+      "change_db": 2.624854386867378,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_35_40khz": {
+      "change_db": 2.940272506722867,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_40_45khz": {
+      "change_db": 2.4216150420292184,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_45_50khz": {
+      "change_db": 3.7452642427673806,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_50_55khz": {
+      "change_db": 1.1780179588945858,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_55_60khz": {
+      "change_db": 4.226623133224751,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_60_65khz": {
+      "change_db": 4.42450837905901,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_65_70khz": {
+      "change_db": 5.180853903306578,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_70_75khz": {
+      "change_db": 4.998912088787945,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_75_80khz": {
+      "change_db": 5.565041126212257,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_80_85khz": {
+      "change_db": 0.9144696567624075,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_85_90khz": {
+      "change_db": 5.469030345059118,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_90_95khz": {
+      "change_db": 5.645625592872592,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_95_100khz": {
+      "change_db": 6.197717101582173,
+      "p_value_unadjusted": 0.5
+    }
+  },
+  "3": {
+    "energy_0_5khz": {
+      "change_db": -0.8417050870212646,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_5_10khz": {
+      "change_db": -1.2973842107218174,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_10_15khz": {
+      "change_db": 0.7194395190196491,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_15_20khz": {
+      "change_db": 0.8528318796025485,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_20_25khz": {
+      "change_db": 0.6497994789038154,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_25_30khz": {
+      "change_db": 0.2566023254608819,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_30_35khz": {
+      "change_db": 0.9947440408798649,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_35_40khz": {
+      "change_db": 0.8263786419158969,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_40_45khz": {
+      "change_db": 0.575398894677173,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_45_50khz": {
+      "change_db": 0.6767140891994259,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_50_55khz": {
+      "change_db": 0.8271952329844124,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_55_60khz": {
+      "change_db": 1.0840700852054963,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_60_65khz": {
+      "change_db": 0.7177145352269719,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_65_70khz": {
+      "change_db": 0.724037146595575,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_70_75khz": {
+      "change_db": 0.740652351996439,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_75_80khz": {
+      "change_db": 0.6047452165056345,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_80_85khz": {
+      "change_db": 0.5754407374856102,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_85_90khz": {
+      "change_db": 1.0560345450021764,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_90_95khz": {
+      "change_db": 1.5281218506524297,
+      "p_value_unadjusted": 0.5
+    },
+    "energy_95_100khz": {
+      "change_db": 1.6933260699728638,
+      "p_value_unadjusted": 0.5
+    }
+  }
+}

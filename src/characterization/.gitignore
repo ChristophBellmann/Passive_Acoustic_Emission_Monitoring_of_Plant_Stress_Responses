@@ -1,0 +1,34 @@
+*.egg-info/
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+.measurement-control/
+
+# Raw measurement arrays are tracked via Git LFS.
+# git-lfs patterns are set in /.gitattributes (repo root).
+#
+# The exclusions below prevent accidental bulk-adds ("git add .") of large
+# raw data.  You can still stage specific files explicitly:
+#   git add src/characterization/data/plant_ae_optimized/20260621_200339/raw/
+# LFS then handles the binary pointer transparently.
+data/**/raw/*.npz
+data/**/decimated*/*.npz
+data/continuous_plant_ae_*/**/*.npz
+# PSD-Snapshots sind verarbeitete Spektren (~750 KB), keine Rohmessungen — via LFS tracken
+!data/continuous_plant_ae_*/**/psd_snapshots/*.npz
+# Generated analysis NPZ files contain redundant 3M-point time vectors (23–46 MB).
+# Exclude; re-run the analysis script to regenerate.
+data/**/analysis/*.npz
+
+# Allow compact analysis outputs in regular git (small, human-readable results).
+!data/reports/**/*.npz
+!data/reports/**/*.json
+!data/reports/**/*.md
+!data/reports/**/*.png
+
+# Dashboard PNGs — viele Dateien, kein wissenschaftlicher Wert im Repo
+data/**/dashboards/*.png
+
+# Roh-Spannungsdaten aus Bewässerungs-Experimenten werden via LFS getrackt
+data/watering_experiments/**/*.npz

@@ -1,0 +1,63 @@
+{
+  "condition": "post_watering",
+  "notes": "Automatically selected post-watering frames from the same rolling stream",
+  "created_utc": "2026-06-23T21:33:22.716167+00:00",
+  "cycles_accepted": 3,
+  "captures": [
+    {
+      "cycle": 0,
+      "channel": 1,
+      "source_sequence": 11,
+      "file": "cycle_000_ch1.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 3,
+      "source_sequence": 11,
+      "file": "cycle_000_ch3.npz"
+    },
+    {
+      "cycle": 0,
+      "channel": 4,
+      "source_sequence": 11,
+      "file": "cycle_000_ch4.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 1,
+      "source_sequence": 12,
+      "file": "cycle_001_ch1.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 3,
+      "source_sequence": 12,
+      "file": "cycle_001_ch3.npz"
+    },
+    {
+      "cycle": 1,
+      "channel": 4,
+      "source_sequence": 12,
+      "file": "cycle_001_ch4.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 1,
+      "source_sequence": 13,
+      "file": "cycle_002_ch1.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 3,
+      "source_sequence": 13,
+      "file": "cycle_002_ch3.npz"
+    },
+    {
+      "cycle": 2,
+      "channel": 4,
+      "source_sequence": 13,
+      "file": "cycle_002_ch4.npz"
+    }
+  ],
+  "source": "continuous RAM ring"
+}

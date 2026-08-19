@@ -1,0 +1,90 @@
+# Current plant acoustic-emission setup after relocation
+# Effective from: 2026-07-14
+# CH1 remains piezo; CH3 and CH4 were changed from piezos to MEMS microphones.
+# The existing LM amplifier stages remain in all three active signal chains.
+# Home Assistant is unavailable: no automatic watering or temperature recording.
+
+instrument:
+  visa_resource: "TCPIP::192.168.178.70::INSTR"
+  idn_expected_contains: ["RIGOL", "DS1104Z"]
+  timeout_ms: 10000
+
+oscilloscope:
+  channels: [1, 3, 4]
+  channel_settings:
+    1:
+      enabled: true
+      label: "piezo_lm_amplifier"
+      probe_ratio: 10
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.5
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "CH1: Piezo sensor through existing LM amplifier, 10:1 probe"
+    2:
+      enabled: false
+      label: "disabled_hardware_fault"
+      probe_ratio: 1
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.01
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "CH2 disabled after hardware fault"
+    3:
+      enabled: true
+      label: "mems_microphone_lm_amplifier_a"
+      probe_ratio: 10
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.5
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "CH3: MEMS microphone through existing LM amplifier, 10:1 probe"
+    4:
+      enabled: true
+      label: "mems_microphone_lm_amplifier_b"
+      probe_ratio: 10
+      coupling: "AC"
+      vertical_scale_v_per_div: 0.5
+      offset_v: 0.0
+      amplitude_calibrated: false
+      notes: "CH4: MEMS microphone through existing LM amplifier, 10:1 probe"
+
+acquisition:
+  captures: 20
+  delay_between_captures_s: 0.3
+  memory_depth: "100000"
+  waveform_mode: "RAW"
+  waveform_format: "BYTE"
+  auto_setup_allowed: false
+  stop_before_read: false
+  restore_run_after_read: false
+
+processing:
+  remove_dc: true
+  detrend: true
+  window: "hann"
+  min_frequency_hz: 20
+  max_frequency_hz: 5000
+  welch:
+    enabled: true
+    nperseg: 1024
+    overlap: 0.5
+  stft:
+    enabled: false
+    nperseg: 512
+    overlap: 0.75
+
+peak_detection:
+  prominence_db: 3.0
+  min_distance_hz: 50
+  max_peaks: 10
+  ignore_frequency_bands_hz:
+    - [48, 52]
+    - [98, 102]
+
+output:
+  save_raw_csv: false
+  save_npz: true
+  save_plots: true
+  save_report_markdown: false
+  plot_format: "png"

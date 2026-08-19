@@ -1,0 +1,148 @@
+\documentclass[a4paper, landscape]{article}
+\usepackage{csquotes}
+
+% ── Encoding & Sprache ────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% ── Tabellen ──────────────────────────────────────────────────
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+
+\usepackage{array}
+
+\usepackage[authoryear]{natbib}
+
+% ── Layout ────────────────────────────────────────────────────
+\usepackage[
+  a4paper,
+  top=2.5cm, bottom=2.5cm,
+  left=2.5cm, right=2.5cm
+]{geometry}
+\usepackage{hyperref}
+
+%\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.2cm,right=2.2cm]{geometry}
+\usepackage{parskip}
+
+% ── Farben ────────────────────────────────────────────────────
+\definecolor{rowgray}{gray}{0.96}
+\definecolor{hoch}{RGB}{198,239,206}
+\definecolor{mittel}{RGB}{255,235,156}
+\definecolor{niedrig}{RGB}{255,199,206}
+\definecolor{groupgray}{gray}{0.88}
+
+% ── Hilfsbefehle für Relevanz-Badges ──────────────────────────
+\newcommand{\relevanzhoch}{\cellcolor{hoch}Hoch}
+\newcommand{\relevanzmittel}{\cellcolor{mittel}Mittel}
+\newcommand{\relevanzniedrig}{\cellcolor{niedrig}Niedrig}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcounter{rown}
+\newcolumntype{N}{!{\stepcounter{rown}\arabic{rown}.}}
+
+\begin{document}
+
+\begin{center}
+  {\Large\bfseries Abgrenzungstabelle}\\[0.4em]
+  {\small Thema: Plant-in-the-loop für adaptive Pflanzenwachstumssysteme \,|\, Stand: \today}
+\end{center}
+
+\setcounter{rown}{-1}
+\vspace{0.8em}
+\rowcolors{2}{rowgray}{white}
+\begin{tabularx}{\textwidth}{
+  N     % Nummerierung
+  L{5cm}     % Quelle
+  L{3cm}      % Thema / Kategorie
+  L{1.5cm}     % Relevanz
+  C{1cm}       % Erstes Thema
+  C{1cm}       % Zweites Thema
+  C{1cm}       % Drittes Thema
+  L{1.5cm}     % Verwendete ML/KI-Modelle
+  X                   % Offene Frage? -> eher im nachfolgenden Teil
+  }
+
+  \toprule
+  \rowcolor{white}
+  \textbf{Quelle} &
+  \textbf{Thema / Kategorie} &
+  \textbf{Relevanz} &
+  \textbf{Argrar 4.0}  & 
+  \textbf{model limits}  & 
+  \textbf{green house}  &
+  \textbf{ML Model}
+  \\
+  \midrule
+
+  % ── Einträge ──────────────────────────────────────────────
+  % Muster:
+  %   Autor et al. (Jahr) & Kategorie & \relevanzhoch      & zuordnung für Thema x ... & offene Frage  \\
+  %   Autor et al. (Jahr) & Kategorie & \relevanzmittel    & zuordnung für Thema x ... & offene Frage  \\
+  %   Autor et al. (Jahr) & Kategorie & \relevanzniedrig   & zuordnung für Thema x ... & offene Frage  \\
+
+  Deep lerning in Multimodal\cite{yang_deep_2025} & Maschinelles Lernen  & \relevanzhoch & X & X & & CNN \& GAN \& Transformer \& RNN\\
+
+  Machine {Learning}-{Based} {Crop} {Stress} {Detection} in {Greenhouses}\cite{elvanidi_machine_2023} & ML / plantstress/ greenhouse & \relevanzhoch & X & X & X & GB \& MLP\\
+
+  Is local food best? \cite{burg_is_2025} & vergleich & \relevanzmittel & X & & X & none\\
+
+  Data-driven robust model predictive control for greenhouse temperature control and energy utilisation assessment\cite{mahmood_data-driven_2023} & Datengetriebene Regelung / robuste MPC & \relevanzmittel &  & X & X & none \\
+
+  Opportunities and limits of controlled-environment plant phenotyping for climate response traits \cite{langstroff_opportunities_2022} & Review / Controlled-Environment-Phänotypisierung & \relevanzhoch  &  \\ %chris. bitte überprüfen und entsprechend mit den themen makieren -> x
+  
+  Probing the reproducibility of leaf growth and molecular phenotypes \cite{massonnet_probing_2010} & Reproduzierbarkeit / biologische Variabilität & \relevanzhoch \\
+  
+  Modelling strategies for assessing and increasing the effectiveness of new phenotyping \cite{van_eeuwijk_modelling_2019} & Phänotypisierung und Modellierung & \relevanzhoch&\\
+  
+  High-resolution digital phenotyping of water uptake and transpiration efficiency\cite{stahl_high-resolution_2020} & Digitale Phänotypisierung / Wasserhaushalt & \relevanzhoch&\\
+
+  Prediction and control of greenhouse temperature: Methods, applications, and future directions\cite{yu_prediction_2025} & Review / Gewächshaus-Temperaturregelung & \relevanzmittel&\\
+
+  \bottomrule
+\end{tabularx}
+
+\vspace{1em}
+\footnotesize
+\textbf{Legende:}\quad \colorbox{hoch}{\strut~Hoch~} Gute Quelle mit gute Informationen zur Frage\quad
+\colorbox{mittel}{\strut~Mittel~} fachlich nützliche Stützquelle\quad
+\colorbox{niedrig}{\strut~Niedrig~} Schlechte Quelle mit keinen passenden Informationen zur Frage, aber nutzlichen Informationen (siehe makierte Themen)
+
+% kleine Abschnitte -> Titel -> kurze Zusammenfassung -> offene Frage oder fazit
+
+% ── Kurzbeschreibungen ────────────────────────────────────────
+% Die Kurzbeschreibungen bitte in Reihenfolge der Tabelle halten. Gute und Zielgerichtete Zusammenfasung, mit Kernaussage und Fatzit und möglicher Lücke (also, wo können wir ansetzten und was wäre noch offen) als Abschluss (gern mit \textit{}).
+\vspace{1.5em}
+\normalsize
+\textbf{Paper-Kurzbeschreibungen:}
+\vspace{0.5em}
+
+\paragraph{Deep Learning in Multimodal Fusion for Sustainable Plant Care: A Comprehensive Review}
+\cite{yang_deep_2025} Betrachtung, bewertung und einordnung verschiedener KI-Modelle und ihre Schnittstellen/Sensoren in der Argrar 4.0. \textit{Frage/Konklusion} \\
+
+\paragraph{Machine {Learning}-{Based} {Crop} {Stress} {Detection} in {Greenhouses}}
+\cite{elvanidi_machine_2023} Untersuchung von ML-Methoden zur Erkennung von Pflanzenstress in Gewächshäusern. Es wurden \textbf{Gradient Bosting (GB)} und \textbf{MultiLayer perceptron (MLP)} in combination verwendet und gute Ergebnisse erzielt. Es gibt wenig studien in Gewächshäusern, die Pflanzen Physiologie (palnt physiological data) mit einbeziehen. DAs GB erzielte ein fast perfektes Ergebnis (100 \% im Training und ~83\% im Test ), das MLP ungefähr ~ 83\% (beides mal ~ 83\%).
+\textit{Combi GB und MLP eigenen sich gut für Pflanzen-stress-erfassung, Input konnte gut reduziert werden (7 Inputs zu 4) mit okner Genauigkeit (~82\%). Mögliche Lüke in Gewächshausforschung und ML anwendung. Ziel: MLs vereinfachen (simpel Training und use, mit wenig Input)} \\
+
+\paragraph{Is ‘local food’ best? {Evaluating} agricultural greenhouses in {Switzerland} as an alternative to imports for reducing carbon footprint}
+\cite{burg_is_2025}Ergebniss: Umweldfreundlicher (C02 einsparung) ist eine Kombi von Import (keine heitzung der Gewächshäuser) und lokalem Anbau (Stützproduktion bei Peaks). Selbst Gewächshäuser, die mit restwärme betrieben werden, haben einen höheren Abgaswert (carbonfootprint).
+\textit{Anbau ohne input (Wärme, Srom…) mit Transport, besser als gesteuertes (heizung, licht…) Gewächshaus.} \\
+
+\paragraph{Data-driven robust model predictive control for greenhouse temperature control and energy utilisation assessment}
+\cite{mahmood_data-driven_2023} Es wurde ein greenhouse climatte management system (GCMS), ein model predictive control (MPC) und ein robust model predictive control (RMPC) zur regulierung eines Gewächshauses getestet. Ein artifical neural network (ANN) sagte die zukunfts Werte durch Messdaten voraus. Durch das Zusammenspiel konnten mit RMPC eine Einsparung von 9,67\% (Winter) und 23,61\% (Sommer) erreicht werden.
+
+\paragraph{A two-layer TinyML approach aided by metaheuristics optimization for leveraging agriculture 4.0 and plant disease classification}
+\cite{} Es wird beschrieben wie man mithilfe von einer Kombination aus CNN und boosting models (BM). Mit Shapley additive explanations (SHAP) soll die two-layer TinyML erklärbar werden. Damit die TinyML realisiert werden kann, wird ein partical swarm optimization Algorithmus with chaotic strategy (PSOCS) benutzt. Er sucht die besten Einstellungen/Hyperparameter um genaue, aber auch sehr leichtgewichtige CNN und BM zu erstellen. Das CNN extrahiert die Merkmale und BM erkennt die Krankheit.
+
+\paragraph{Advances in Deep Learning Applications for Plant Disease and Pest Detection: A Review}
+\cite{} Eine Einordnung von ca 182 Studien/Papers zum Thema Pflanzenkrankheiten und -schädlingen.
+In einem Zitat wird erwähnt, das Huang et al. unter kombination von Support Vector Machine mit Wacelet features (GaborSVM) den Standart SVM übertrift und das es über Sateliet für large-scale geeignet ist. Traditionelle ML Performance hängt stark von manueller Featurebestimmung ab. \textbf{Ergebnis} Trainingsdaten sind oft zu sauber und eindimensional, das Training ist sehr rechen intensiv und dauern lang. Ziele der Zukunft sollten Erklärbarkeit, Modledatengröße und eine "bessere" Datenbank sein.
+
+
+\bibliography{../zotero/literatur}
+\bibliographystyle{plain}
+
+\end{document}

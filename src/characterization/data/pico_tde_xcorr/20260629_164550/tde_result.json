@@ -1,0 +1,22 @@
+{
+  "run_id": "20260629_164550",
+  "frames": [
+    {
+      "f": 8800.0,
+      "tau_phase_us": -1.6587266698253715,
+      "tau_xcorr_us": -200.0
+    },
+    {
+      "f": 8800.0,
+      "tau_phase_us": -2.7473126199812565,
+      "tau_xcorr_us": -200.0
+    },
+    {
+      "f": 8650.0,
+      "tau_phase_us": -1.5452176656522465,
+      "tau_xcorr_us": -200.0
+    }
+  ],
+  "tau_phase_mean_us": -1.9838,
+  "tau_xcorr_median_us": -200.0
+}

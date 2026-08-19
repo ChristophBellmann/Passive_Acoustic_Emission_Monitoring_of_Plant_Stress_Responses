@@ -1,0 +1,161 @@
+{
+  "run_id": "20260626_220641",
+  "finished": "2026-06-26T20:09:48.704700+00:00",
+  "parameters": {
+    "frames": 5,
+    "sample_rate_hz": 250000000.0,
+    "memory_depth": 300000,
+    "chunk_points": 250000,
+    "visa_timeout_ms": 30000,
+    "save_raw": true,
+    "max_delay_us": 120.0,
+    "interpolation": 8,
+    "min_frequency_hz": 20000.0,
+    "max_frequency_hz": 1000000.0,
+    "nperseg": 8192,
+    "coherence_threshold": 0.7,
+    "min_bandwidth_hz": 10000.0,
+    "sensor_distance_mm": 10.0,
+    "min_speed_m_per_s": 100.0,
+    "max_speed_m_per_s": 1600.0,
+    "impulse_source": "ha-pump",
+    "impulse_delay_s": 0.001,
+    "pump_pulse_s": 0.003,
+    "ha_url": null,
+    "ha_token": null,
+    "ha_sync_dir": null,
+    "trigger_level_v": 0.005,
+    "trigger_sweep": "NORM",
+    "allow_quantized_timebase": true
+  },
+  "delay_summary": {
+    "gcc_phat_delay_us_median": 0.05800000000000001,
+    "gcc_phat_delay_us_mean": -9.8732,
+    "gcc_phat_delay_us_std": 20.046483648261113,
+    "gcc_phat_delay_us_min": -49.965500000000006,
+    "gcc_phat_delay_us_max": 0.30700000000000005,
+    "frames": 5
+  },
+  "frames": [
+    {
+      "sequence": 0,
+      "timestamp": "2026-06-26_22-06-46",
+      "sample_rate_hz": 249999999.99999997,
+      "impulse_source": "ha-pump",
+      "impulse_result": {
+        "requested_duration_s": 0.003,
+        "turn_on_returned_after_s": 0.009431113983737305,
+        "software_elapsed_s": 0.021240531001240015,
+        "entity_id": "switch.pflanze_1_pflanze_1_pumpe",
+        "timing_note": "Best effort via Home Assistant REST; mechanical/electrical pulse width is not calibrated."
+      },
+      "gcc_phat": {
+        "delay_s": -8.500000000000002e-09,
+        "confidence": 29.4451065912264,
+        "peak_value": 0.0005836152512564516,
+        "search_window_s": 0.00011999999999999999,
+        "delay_us": -0.008500000000000002
+      },
+      "top_phase_candidates": [
+        {
+          "f_low_hz": 30517.578124999996,
+          "f_high_hz": 457763.67187499994,
+          "center_hz": 235324.76552521612,
+          "delay_s": 3.211654477823246e-07,
+          "delay_std_s": 5.415307027204808e-07,
+          "mean_coherence": 0.8302169542072857,
+          "phase_span_rad": -0.886779256502476,
+          "bins": 15,
+          "slope_rad_per_hz": -2.0179420226796545e-06,
+          "intercept_rad": 0.11630874224906174,
+          "delay_us": 0.32116544778232464,
+          "delay_std_us": 0.5415307027204809
+        }
+      ]
+    },
+    {
+      "sequence": 1,
+      "timestamp": "2026-06-26_22-07-23",
+      "sample_rate_hz": 249999999.99999997,
+      "impulse_source": "ha-pump",
+      "impulse_result": {
+        "requested_duration_s": 0.003,
+        "turn_on_returned_after_s": 0.007258475990965962,
+        "software_elapsed_s": 0.020719091000501066,
+        "entity_id": "switch.pflanze_1_pflanze_1_pumpe",
+        "timing_note": "Best effort via Home Assistant REST; mechanical/electrical pulse width is not calibrated."
+      },
+      "gcc_phat": {
+        "delay_s": -4.996550000000001e-05,
+        "confidence": 4.818008191554999,
+        "peak_value": 8.425042353246911e-05,
+        "search_window_s": 0.00011999999999999999,
+        "delay_us": -49.965500000000006
+      },
+      "top_phase_candidates": []
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-06-26_22-07-59",
+      "sample_rate_hz": 249999999.99999997,
+      "impulse_source": "ha-pump",
+      "impulse_result": {
+        "requested_duration_s": 0.003,
+        "turn_on_returned_after_s": 0.00938921599299647,
+        "software_elapsed_s": 0.019433773995842785,
+        "entity_id": "switch.pflanze_1_pflanze_1_pumpe",
+        "timing_note": "Best effort via Home Assistant REST; mechanical/electrical pulse width is not calibrated."
+      },
+      "gcc_phat": {
+        "delay_s": 3.0700000000000004e-07,
+        "confidence": 8.555687822775512,
+        "peak_value": 0.00015208203977832638,
+        "search_window_s": 0.00011999999999999999,
+        "delay_us": 0.30700000000000005
+      },
+      "top_phase_candidates": []
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-06-26_22-08-35",
+      "sample_rate_hz": 249999999.99999997,
+      "impulse_source": "ha-pump",
+      "impulse_result": {
+        "requested_duration_s": 0.003,
+        "turn_on_returned_after_s": 0.011568597023142502,
+        "software_elapsed_s": 0.022675625019473955,
+        "entity_id": "switch.pflanze_1_pflanze_1_pumpe",
+        "timing_note": "Best effort via Home Assistant REST; mechanical/electrical pulse width is not calibrated."
+      },
+      "gcc_phat": {
+        "delay_s": 5.800000000000001e-08,
+        "confidence": 11.879416038492504,
+        "peak_value": 0.0002112885625255723,
+        "search_window_s": 0.00011999999999999999,
+        "delay_us": 0.05800000000000001
+      },
+      "top_phase_candidates": []
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-06-26_22-09-12",
+      "sample_rate_hz": 249999999.99999997,
+      "impulse_source": "ha-pump",
+      "impulse_result": {
+        "requested_duration_s": 0.003,
+        "turn_on_returned_after_s": 0.008860903006279841,
+        "software_elapsed_s": 0.022693460021400824,
+        "entity_id": "switch.pflanze_1_pflanze_1_pumpe",
+        "timing_note": "Best effort via Home Assistant REST; mechanical/electrical pulse width is not calibrated."
+      },
+      "gcc_phat": {
+        "delay_s": 2.4300000000000005e-07,
+        "confidence": 22.23447926797461,
+        "peak_value": 0.00031156282739011837,
+        "search_window_s": 0.00011999999999999999,
+        "delay_us": 0.24300000000000005
+      },
+      "top_phase_candidates": []
+    }
+  ]
+}

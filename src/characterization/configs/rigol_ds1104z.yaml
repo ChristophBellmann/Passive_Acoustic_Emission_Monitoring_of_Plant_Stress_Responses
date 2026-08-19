@@ -1,0 +1,4 @@
+instrument:
+  visa_resource: "TCPIP::192.168.178.70::INSTR"
+  idn_expected_contains: ["RIGOL", "DS1104Z"]
+  timeout_ms: 10000

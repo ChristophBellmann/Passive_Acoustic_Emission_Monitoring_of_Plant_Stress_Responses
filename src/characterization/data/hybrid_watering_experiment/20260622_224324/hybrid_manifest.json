@@ -1,0 +1,94 @@
+{
+  "run_id": "20260622_224324",
+  "started_utc": "2026-06-22T20:43:24.440345+00:00",
+  "parameters": {
+    "warmup_frames": 5,
+    "pre_snapshot_frames": 3,
+    "settle_frames": 2,
+    "post_snapshot_frames": 3,
+    "memory_fraction": 0.75,
+    "reserve_gib": 4.0,
+    "persist_rolling_events": true
+  },
+  "rolling_event_dir": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/hybrid_watering_experiment/20260622_224324/rolling_events",
+  "events": [
+    {
+      "timestamp_utc": "2026-06-22T20:43:29.251335+00:00",
+      "event": "rolling_reference_start",
+      "required_frames": 8
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:50:28.521964+00:00",
+      "event": "pre_snapshot_materialized",
+      "first_sequence": 5,
+      "last_sequence": 7
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:50:28.522181+00:00",
+      "event": "watering_trigger_requested",
+      "duration_s": 10.0
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:50:28.569145+00:00",
+      "event": "watering_started"
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:51:07.990233+00:00",
+      "event": "watering_confirmed_complete",
+      "frames": 1
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:53:43.053048+00:00",
+      "event": "rolling_events",
+      "sequence": 12,
+      "detections": [
+        {
+          "type": "cross_channel_band_energy_change",
+          "sequence": 12,
+          "channels": [
+            1,
+            2
+          ],
+          "band_low_hz": 0.0,
+          "band_high_hz": 5000.0,
+          "change_db": {
+            "1": -4.474061965942383,
+            "2": -5.023521900177002
+          }
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-06-22T20:54:46.837383+00:00",
+      "event": "analysis_complete",
+      "report_dir": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/reports/notebooks/05_automated_hybrid_experiment/20260622_224324"
+    }
+  ],
+  "snapshots": {
+    "pre_watering": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/hybrid_watering_experiment/20260622_224324/snapshot_pre_watering",
+    "watering_event": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/hybrid_watering_experiment/20260622_224324/snapshot_watering_event",
+    "post_watering": "/media/christoph/some_space/Nextcloud/hs-augsburg/Semester_6/Projekt_I1/projekt_i1/src/characterization/data/hybrid_watering_experiment/20260622_224324/snapshot_post_watering"
+  },
+  "verified_scope_settings": {
+    "profile": "deep_memory_500k",
+    "sample_rate_hz": 500000.0,
+    "memory_depth": 300000,
+    "horizontal_scale_s_per_div": 0.05,
+    "capture_duration_s": 0.6,
+    "frequency_resolution_hz": 1.6666666666666667,
+    "nyquist_hz": 250000.0,
+    "trigger_mode": "EDGE",
+    "trigger_source": "CHAN1",
+    "trigger_level_v": 0.02
+  },
+  "finished_utc": "2026-06-22T20:54:22.425783+00:00",
+  "rolling_status": {
+    "frames_in_ram": 14,
+    "evicted_frames": 0,
+    "ring_usage_gib": 0.07823443412780762,
+    "ring_budget_gib": 16.303504943847656,
+    "system_available_gib": 20.415515899658203,
+    "active_peak_tracks": 85,
+    "events": 1
+  }
+}
